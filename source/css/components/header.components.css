@@ -47,8 +47,28 @@
 }
 .header-dropdown-list.cart::before{
     content: '8';
-    background: #e74c3c;
+    background-color: #e74c3c; /*цвет  дропботона  корзина для 03_main_home.psd*/
+   /* background-color: #95c85a;*/ /*цвет  дропботона  корзина для остальных меню*/
+
 }
 /*----header-top-end----*/
 
 
+/*----header-bottom----*/
+.bottom-header{
+    background-color: #263238;
+}
+.header-nav{
+    display: flex;
+    justify-content: flex-start;
+    padding: 24px 0;
+}
+.header-nav a{
+    padding-right: 33px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+/*----header-bottom-end----*/
