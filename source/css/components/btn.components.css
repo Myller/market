@@ -1,0 +1,57 @@
+/* ===Breadcrumbs=== */
+.breadcrumb {
+    padding: 48px 0 42px 0;
+}
+ul.breadcrumb li {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 40px;
+    color: rgb(176,190,197);
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.breadcrumb > .active {
+    color:rgb(38,50,56);
+}
+.breadcrumb > li a:focus,
+.breadcrumb > li a:hover {
+    color: rgb(139,195,74);
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color:rgb(139,195,74);
+    content: '-';
+}
+/* ===Breadcrumbs end=== */
+
+/* ===Pagination=== */
+.pagination{
+    padding: 50px 0 0 0;
+}
+
+.pagination li + li {
+   margin-left: 9px;
+}
+.pagination > li > a {
+    display: inline-block;
+    width: 42px;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 60px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: rgb(38,50,56);
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(205, 214, 222, .75);
+    box-shadow: 0 1px 1px rgba(205, 214, 222, .75);
+    text-align: center;
+}
+ 
+.pagination > .active > a,
+.pagination > li > a:focus,
+.pagination > li > a:hover{
+    background: rgb(178,74,66);
+    color: #fff;
+}
+/* ===Pagination end=== */
