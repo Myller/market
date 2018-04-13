@@ -9,7 +9,7 @@ gulp.task('autoprefixer', function () {
         .pipe(autoprefixer({
             browsers: ['last 2 versions']
         }))
-        .pipe(gulp.dest('app/css'))
+        .pipe(gulp.dest('app/css'));
 });
 
 // concat all css files
