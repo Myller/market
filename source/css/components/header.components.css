@@ -24,6 +24,9 @@
     height: 34px;
     border-radius: 50%;
 }
+.header-dropdown-list:last-child{
+    margin-right: 10px;
+}
 .header-dropdown-list::before {
     position: absolute;
     display: inline-block;
@@ -53,6 +56,16 @@
 }
 /*----header-top-end----*/
 
+/*----header----*/
+.head-user-photo{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #d4d4d4;
+}
+
+/*----header-end----*/
 
 /*----header-bottom----*/
 .bottom-header{

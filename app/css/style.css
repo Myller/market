@@ -85,6 +85,9 @@ blockquote {
     height: 34px;
     border-radius: 50%;
 }
+.header-dropdown-list:last-child{
+    margin-right: 10px;
+}
 .header-dropdown-list::before {
     position: absolute;
     display: inline-block;
@@ -108,11 +111,45 @@ blockquote {
 }
 .header-dropdown-list.cart::before{
     content: '8';
-    background: #e74c3c;
+    background-color: #e74c3c; /*цвет  дропботона  корзина для 03_main_home.psd*/
+   /* background-color: #95c85a;*/ /*цвет  дропботона  корзина для остальных меню*/
+
 }
 /*----header-top-end----*/
 
+/*----header----*/
+.head-user-photo{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #d4d4d4;
+}
 
+/*----header-end----*/
+
+/*----header-bottom----*/
+.bottom-header{
+    background-color: #263238;
+}
+.header-nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 24px 0;
+}
+.header-nav a{
+    padding-right: 33px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+/*----header-bottom-end----*/
 
 /*----header-top---*/
 .top-header{
