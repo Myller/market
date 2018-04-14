@@ -1,0 +1,68 @@
+.card {
+    border-radius: 0;
+    border-color: #d9e0e3;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .13);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, .13)
+}
+
+.card .card-img img {
+    width: 100%;
+}
+
+.card .card-info {
+    border-bottom: 1px solid #d9e0e3;
+}
+
+.card .card-title:hover {
+    font-weight: 600;
+    color: #263238;
+}
+
+.card .card-category:hover {
+    font-weight: 600;
+    color: #8bc34a;
+}
+
+.card.large-card .card-info {
+    padding: 25px 30px 15px;
+}
+
+.card.large-card .card-title {
+    font-size: 18px;
+}
+
+.card.large-card .card-author {
+    padding: 20px 30px;
+}
+.card.large-card  .card-author-img img {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+.card .card-product-rating {
+    font-size: 12px;
+}
+.card .card-product-rating .list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.card .rating-count {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.card .rating-count::before {
+    content: '(';
+    margin-right: 2px;
+}
+.card .rating-count::after {
+    content: ')';
+    margin-left: 1px;
+}
+
+.card .rating-count::before,
+.card .rating-count::after {
+    color: #546e7a;
+}
