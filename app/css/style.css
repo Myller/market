@@ -79,37 +79,6 @@ ul.breadcrumb li {
 }
 /* ===Breadcrumbs end=== */
 
-/* ===Pagination=== */
-.pagination{
-    padding: 50px 0 0 0;
-}
-
-.pagination li + li {
-   margin-left: 9px;
-}
-.pagination > li > a {
-    display: inline-block;
-    width: 42px;
-    padding: 12px 0;
-    font-size: 16px;
-    line-height: 60px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: rgb(38,50,56);
-    background-color: #fff;
-    -webkit-box-shadow: 0 1px 1px rgba(205, 214, 222, .75);
-    box-shadow: 0 1px 1px rgba(205, 214, 222, .75);
-    text-align: center;
-}
- 
-.pagination > .active > a,
-.pagination > li > a:focus,
-.pagination > li > a:hover {
-    background: rgb(178,74,66);
-    color: #fff;
-}
-/* ===Pagination end=== */
-
 /* ===Buttons=== */
 .btn-row {
     padding: 20px;
@@ -514,6 +483,113 @@ ul.breadcrumb li {
 
 
 
+/* ===Pagination=== */
+.pagination {
+    padding: 50px 20px;
+}
+.pagination-lg .page-link {
+    padding: 12px 17px;
+}
+.page-link {  
+    margin-left: 9px;
+    color:rgb(38,50,56);
+    box-shadow: 0px 2px 1px rgba(205, 214, 222, 0.75);
+    -webkit-box-shadow: 0 2px 1px rgba(205, 214, 222, .75);
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+}
+.page-link:hover, .page-link:focus {
+    border: none;
+    color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: rgb(178,74,66);
+    -webkit-box-shadow: 0px 2px 1px rgba(205, 214, 222,0.75);
+            box-shadow: 0px 2px 1px rgba(205, 214, 222,0.75);
+}
+.pagination-lg .page-item:first-child .page-link
+.pagination-lg .page-item:last-child .page-link, {
+    border-radius: 0;
+}
+
+/* ===Pagination end=== */
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.table-section {
+    margin: 41px 0;
+    font-family: Roboto;
+}
+.table-section span {
+    font-size: 30px;
+    color: #263238;
+}
+.table-sum {
+    margin-bottom: 83px;
+}
+span.color-green {
+    color: #8bc34a;
+}
+.container.table-size {
+    padding: 0 33px;
+    border: 1px solid #dedede;
+}
+.container.simple-size {
+    padding: 0 43px;
+    border: 1px solid #dedede;
+}
+.table-section .title {
+    color: #263238;
+    font-size: 24px;
+    padding: 25px 0;
+}
+
+.table-section .table {
+    margin-top: 35px;
+    margin-bottom: 86px;
+}
+
+.table .thead-color {
+    background-color: #455a64;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.table tbody tr:nth-child(even){
+    background-color:#fbfbfb;
+}
+
+.table thead tr th {
+    font-weight: 500;
+    padding: 24px 28px;
+}
+
+.table tbody tr td, .table tbody tr th {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #333333;
+    padding: 24px 28px;
+}
+
+.table tbody tr td:nth-child(3) {
+    font-weight: bold;
+}
+
+.table.table-striped tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+.table.table-striped tbody tr td:nth-child(4) {
+    color: #8bc34a;
+}
+.table.table-striped {
+    margin-bottom: 37px;
+}
 /*=== Style text ===*/
 .title-bold {
     font-weight: 700;
