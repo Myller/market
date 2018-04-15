@@ -720,6 +720,75 @@ ul.breadcrumb li {
 
 
 
+/* ===Aside lists=== */
+.aside-section {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    padding: 23px 27px 30px;
+}
+
+.aside-section + .aside-section {
+    margin-bottom: 30px;
+}
+
+.aside-section .aside-section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #263238;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dde3e8;
+} 
+
+.aside-section-list {
+    margin-top: 25px;
+
+}
+.aside-section-list li + li {
+    margin-top: 25px;
+}
+
+.aside-section-list a {
+    color: #263238;
+}
+.aside-section-list i {
+    font-size: 14px;
+    color: #8bc34a;
+    margin-right: 10px;
+}
+
+.aside-section-list a:hover {
+    color: #8bc34a;
+}
+
+.aside-section-list a span {
+    color: #90a4ae;
+    float: right;
+}
+/* ===Aside lists end=== */
+
+/* ===Footer lists=== */
+.footer-nav {
+    padding-top: 25px;
+}
+
+.text-footer {
+    font-size: 15px;
+    color: #b7c3c8;
+}
+
+.footer-nav i {
+    color: #8bc34a;
+    margin-right: 15px;
+}
+
+.footer-nav a {
+    margin-top: 25px;
+}
+
+.footer-nav a:hover {
+    color: inherit;
+}
+/* ===Footer lists end=== */
 /* ===Pagination=== */
 .pagination {
     padding: 50px 20px;
@@ -752,6 +821,50 @@ ul.breadcrumb li {
 }
 
 /* ===Pagination end=== */
+
+/* ===Tags=== */
+.tag-section {
+    padding: 20px;
+}
+
+.bg-grey {
+    background-color: #b5b5b5;
+} 
+
+.tags {
+    font-size: 14px;
+    font-weight: 500;
+}
+.tag-item {
+    background-color: #fff;
+    padding: 14px 25px;
+    color: #263238;
+}
+.tags  .tag-item + .tag-item  {
+     margin-left: 9px;
+ }
+.tags .tag-item.active {
+    background-color: rgb(218,110,99);
+    color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(244,246,245, .75);
+            box-shadow: 0 2px 4px rgba(244,246,245, .75);
+}
+.tag-item a:hover {
+    color: #fff;
+}
+
+.tags .tag-item:hover {
+    background-color: rgb(218,110,99);
+    color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(244,246,245, .75);
+            box-shadow: 0 2px 4px rgba(244,246,245, .75); 
+    -webkit-transition: all .2s ease-out; 
+    transition: all .2s ease-out;
+}
+
+/*===Tags end===*/
+
+
 
 /*=== Style text ===*/
 .title-bold {
