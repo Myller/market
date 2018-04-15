@@ -483,6 +483,9 @@ ul.breadcrumb li {
 
 
 
+.fa.fa-green  {
+    color: #8bc34a;
+}
 /* ===Pagination=== */
 .pagination {
     padding: 50px 20px;
