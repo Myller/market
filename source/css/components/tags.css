@@ -1,0 +1,40 @@
+/* ===Tags=== */
+.tag-section {
+    padding: 20px;
+}
+
+.bg-grey {
+    background-color: #b5b5b5;
+} 
+
+.tags {
+    font-size: 14px;
+    font-weight: 500;
+}
+.tag-item {
+    background-color: #fff;
+    padding: 14px 25px;
+    color: #263238;
+}
+.tags  .tag-item + .tag-item  {
+     margin-left: 9px;
+ }
+.tags .tag-item.active {
+    background-color: rgb(218,110,99);
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(244,246,245, .75);
+}
+.tag-item a:hover {
+    color: #fff;
+}
+
+.tags .tag-item:hover {
+    background-color: rgb(218,110,99);
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(244,246,245, .75); 
+    transition: all .2s ease-out;
+}
+
+/*===Tags end===*/
+
+
