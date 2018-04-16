@@ -1,3 +1,4 @@
+/*====Cards start====*/
 .card {
     border-radius: 0;
     border-color: #d9e0e3;
@@ -155,4 +156,5 @@
 .card.aside-card .card-author {
     margin-bottom: 28px;
 }
+/*=====Cards end=====*/
 
