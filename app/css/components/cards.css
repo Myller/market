@@ -8,6 +8,29 @@
             box-shadow: 0 8px 15px rgba(0, 0, 0, .13)
 }
 
+.label-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 64px solid #8bc34a;
+    border-left: 0 solid transparent;
+    border-right:64px solid transparent;
+    font-size: 18px;
+    color: #fff;
+}
+.label-card i::after {
+    content: "\f0e7";
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
 .card .card-img img {
     width: 100%;
 }
@@ -26,27 +49,16 @@
     color: #8bc34a;
 }
 
-.card.large-card .card-info {
-    padding: 25px 30px 15px;
-}
-
-.card.large-card .card-title {
-    font-size: 18px;
-}
-
-.card.large-card .card-author {
-    padding: 20px 30px;
-}
-.card.large-card  .card-author-img img {
-    max-width: 30px;
+.card .card-author-img img {
+    max-width: 31px;
     margin-right: 10px;
 }
 
-.card .card-product-rating {
+.card .card-product-rating i {
     font-size: 12px;
 }
 .card .card-product-rating .list-inline-item:not(:last-child) {
-    margin-right: 0;
+    margin-right: .0rem;
 }
 .card .rating-count {
     font-size: 12px;
@@ -66,3 +78,58 @@
 .card .rating-count::after {
     color: #546e7a;
 }
+/*=====large-card=====*/
+.card.large-card {
+    max-width: 442px;
+}
+
+.card.large-card .card-info {
+    padding: 25px 30px 15px;
+}
+
+.card.large-card .card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card.large-card .card-author {
+    padding: 20px 30px;
+}
+/*=====medium-card=====*/
+.card.medium-card {
+    max-width: 270px;
+}
+.card.medium-card .card-info {
+    padding: 25px 22px;
+}
+.card.medium-card .card-author {
+    padding: 16px 22px 20px;
+}
+.card.medium-card .rating-count {
+    font-size: 12px;
+    margin-left: 8px;
+}
+.card.medium-card .card-title {
+    font-weight: 500;
+}
+/*=====aside-card=====*/
+.card.aside-card {
+    border-right: none;
+    border-left: none;
+}
+.card.aside-card .card-info {
+    padding: 20px;
+}
+.card.aside-card .card-info {
+    border-bottom: none;
+}
+.card.aside-card .card-info {
+    padding: 25px 0;
+}
+.card.aside-card .card-title {
+    font-weight: 500;
+}
+.card.aside-card .card-author {
+    margin-bottom:28px;
+}
+

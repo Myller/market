@@ -1,0 +1,33 @@
+.container {
+    padding: 50px;
+}
+/* === aside section start === */
+.aside-section{
+    border-radius: 0;
+    width: 270px;
+    padding: 25px 30px 30px 30px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+}
+.aside-title{
+    font-size: 20px;
+    line-height: 3;
+    border-bottom: 1px solid #dde3e8;
+}
+.aside-title{
+    margin-bottom: 30px;
+}
+.aside-section + .aside-section{
+    margin-top: 30px;
+}
+/* === aside section end === */
+/*1170+30=1200*/
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.container-fluid {
+    padding: 0 15px;
+}

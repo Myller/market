@@ -10,6 +10,9 @@
 .title-regular {
     font-weight: 400;
 }
+text-capitalize {
+    text-transform: capitalize;
+}
 
 .title {
     font-family: 'Roboto';
@@ -40,7 +43,6 @@
 .title.default-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 2.4;
 }
 
 .title.default-text.default-text-block {
