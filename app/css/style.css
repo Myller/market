@@ -52,6 +52,39 @@ input[type="submit"]{
 blockquote {
     margin: 0;
 }
+.container {
+    padding: 50px;
+}
+/* === aside section start === */
+.aside-section{
+    border-radius: 0;
+    width: 270px;
+    padding: 25px 30px 30px 30px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+}
+.aside-title{
+    font-size: 20px;
+    line-height: 3;
+    border-bottom: 1px solid #dde3e8;
+}
+.aside-title{
+    margin-bottom: 30px;
+}
+.aside-section + .aside-section{
+    margin-top: 30px;
+}
+/* === aside section end === */
+/*1170+30=1200*/
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.container-fluid {
+    padding: 0 15px;
+}
 /* ===Breadcrumbs=== */
 .breadcrumb {
     padding: 48px 0 42px 0;
@@ -462,6 +495,29 @@ ul.breadcrumb li {
             box-shadow: 0 8px 15px rgba(0, 0, 0, .13)
 }
 
+.label-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 64px solid #8bc34a;
+    border-left: 0 solid transparent;
+    border-right:64px solid transparent;
+    font-size: 18px;
+    color: #fff;
+}
+.label-card i::after {
+    content: "\f0e7";
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
 .card .card-img img {
     width: 100%;
 }
@@ -480,27 +536,16 @@ ul.breadcrumb li {
     color: #8bc34a;
 }
 
-.card.large-card .card-info {
-    padding: 25px 30px 15px;
-}
-
-.card.large-card .card-title {
-    font-size: 18px;
-}
-
-.card.large-card .card-author {
-    padding: 20px 30px;
-}
-.card.large-card  .card-author-img img {
-    max-width: 30px;
+.card .card-author-img img {
+    max-width: 31px;
     margin-right: 10px;
 }
 
-.card .card-product-rating {
+.card .card-product-rating i {
     font-size: 12px;
 }
 .card .card-product-rating .list-inline-item:not(:last-child) {
-    margin-right: 0;
+    margin-right: .0rem;
 }
 .card .rating-count {
     font-size: 12px;
@@ -520,6 +565,124 @@ ul.breadcrumb li {
 .card .rating-count::after {
     color: #546e7a;
 }
+/*=====large-card=====*/
+.card.large-card {
+    max-width: 442px;
+}
+
+.card.large-card .card-info {
+    padding: 25px 30px 15px;
+}
+
+.card.large-card .card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card.large-card .card-author {
+    padding: 20px 30px;
+}
+/*=====medium-card=====*/
+.card.medium-card {
+    max-width: 270px;
+}
+.card.medium-card .card-info {
+    padding: 25px 22px;
+}
+.card.medium-card .card-author {
+    padding: 16px 22px 20px;
+}
+.card.medium-card .rating-count {
+    font-size: 12px;
+    margin-left: 8px;
+}
+.card.medium-card .card-title {
+    font-weight: 500;
+}
+/*=====aside-card=====*/
+.card.aside-card {
+    border-right: none;
+    border-left: none;
+}
+.card.aside-card .card-info {
+    padding: 20px;
+}
+.card.aside-card .card-info {
+    border-bottom: none;
+}
+.card.aside-card .card-info {
+    padding: 25px 0;
+}
+.card.aside-card .card-title {
+    font-weight: 500;
+}
+.card.aside-card .card-author {
+    margin-bottom:28px;
+}
+
+
+/*----footer----*/
+
+.footer{
+    background-color: #263238;
+    padding: 116px 0 98px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.footer .footer-title{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.09em;
+    position: relative;
+    margin-bottom: 63px;
+
+}
+.footer .footer-title::after{
+    position: absolute;
+    content: '';
+    width: 51px;
+    height: 3px;
+    background-color: #729e4c;
+    bottom: -28px;
+    left: 0;
+}
+.footer .footer-text{
+    color: #b7c3c8;
+    line-height: 1.6em;
+    margin-bottom: 36px;
+}
+.footer-contacts{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.footer-contacts .footer-contacts-items{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #fff;
+}
+.footer-contacts-items  i{
+    margin: 0 20px 40px 0;
+    font-size: 18px;
+    color: #8bc34a;
+}
+.footer-contacts-items span{
+    margin-bottom: 28px;
+}
+.footer-contacts-items span:last-child{
+    margin-bottom: 0;
+}
+
+
+
+/*----footer-end----*/
 /*----header-top---*/
 #header{
     height: 900px;
@@ -878,6 +1041,9 @@ ul.breadcrumb li {
 .title-regular {
     font-weight: 400;
 }
+text-capitalize {
+    text-transform: capitalize;
+}
 
 .title {
     font-family: 'Roboto';
@@ -908,7 +1074,6 @@ ul.breadcrumb li {
 .title.default-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 2.4;
 }
 
 .title.default-text.default-text-block {
