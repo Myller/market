@@ -17,10 +17,11 @@
     height: 0;
     border-top: 64px solid #8bc34a;
     border-left: 0 solid transparent;
-    border-right:64px solid transparent;
+    border-right: 64px solid transparent;
     font-size: 18px;
     color: #fff;
 }
+
 .label-card i::after {
     content: "\f0e7";
     position: absolute;
@@ -39,11 +40,6 @@
     border-bottom: 1px solid #d9e0e3;
 }
 
-.card .card-title:hover {
-    font-weight: 600;
-    color: #263238;
-}
-
 .card .card-category:hover {
     font-weight: 600;
     color: #8bc34a;
@@ -57,9 +53,11 @@
 .card .card-product-rating i {
     font-size: 12px;
 }
+
 .card .card-product-rating .list-inline-item:not(:last-child) {
     margin-right: .0rem;
 }
+
 .card .rating-count {
     font-size: 12px;
     margin-left: 15px;
@@ -69,6 +67,7 @@
     content: '(';
     margin-right: 2px;
 }
+
 .card .rating-count::after {
     content: ')';
     margin-left: 1px;
@@ -78,6 +77,7 @@
 .card .rating-count::after {
     color: #546e7a;
 }
+
 /*=====large-card=====*/
 .card.large-card {
     max-width: 442px;
@@ -92,44 +92,68 @@
     font-weight: 500;
 }
 
+.card.large-card .card-title:hover {
+    font-weight: 600;
+    color: #263238;
+}
+
 .card.large-card .card-author {
     padding: 20px 30px;
 }
+
 /*=====medium-card=====*/
 .card.medium-card {
     max-width: 270px;
 }
+
 .card.medium-card .card-info {
     padding: 25px 22px;
 }
+
+.card.medium-card .card-title {
+    font-weight: 500;
+}
+
+.card.medium-card .card-title:hover {
+    font-weight: 600;
+}
+
 .card.medium-card .card-author {
     padding: 16px 22px 20px;
 }
+
 .card.medium-card .rating-count {
     font-size: 12px;
     margin-left: 8px;
 }
-.card.medium-card .card-title {
-    font-weight: 500;
-}
+
 /*=====aside-card=====*/
 .card.aside-card {
     border-right: none;
     border-left: none;
 }
+
 .card.aside-card .card-info {
     padding: 20px;
 }
+
 .card.aside-card .card-info {
     border-bottom: none;
 }
+
 .card.aside-card .card-info {
     padding: 25px 0;
 }
+
 .card.aside-card .card-title {
     font-weight: 500;
 }
+
+.card.aside-card .card-title:hover {
+    font-weight: 600;
+}
+
 .card.aside-card .card-author {
-    margin-bottom:28px;
+    margin-bottom: 28px;
 }
 
