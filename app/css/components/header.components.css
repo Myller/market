@@ -59,10 +59,13 @@
 }
 .header-dropdown-list.cart-item::before{
     content: '8';
-    background-color: #e74c3c; /*цвет  дропботона  корзина для 03_main_home.psd*/
-   /* background-color: #95c85a;*/ /*цвет  дропботона  корзина для остальных меню*/
-
+   background-color: #95c85a;
 }
+.header-dropdown-list.cart-item-home::before{
+    content: '8';
+    background-color: #e74c3c;
+}
+
 .dropdown-menu{
     margin-top: 27px;
     padding: 0;
