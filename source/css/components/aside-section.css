@@ -27,6 +27,13 @@
     padding: 0 15px;
     margin: auto;
 }
+/*870+30=900*/
+.container-small {
+    max-width: 900px;
+    padding: 0 15px;
+    margin: auto;
+}
+
 
 .container-fluid {
     padding: 0 15px;
