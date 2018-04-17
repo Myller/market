@@ -20,17 +20,17 @@
 .product-content .row {
     margin-top: 30px;
 }
-.pagination.pagination-lg {
+.product-content .pagination.pagination-lg {
     padding-left: 0;
     padding-top: 60px;
 }
 
-.pagination-lg .page-item:first-child .page-link {
+.product-content .pagination-lg .page-item:first-child .page-link {
     border-top-left-radius: .0rem;
     border-bottom-left-radius: .0rem;
 }
 
-.pagination-lg .page-item:last-child .page-link {
+.product-content .pagination-lg .page-item:last-child .page-link {
     border-top-right-radius: .0rem;
     border-bottom-right-radius: .0rem;
 }
@@ -39,7 +39,7 @@
     text-align: center;
 }
 
-.pagination-lg .page-link{
+.product-content .pagination-lg .page-link{
     padding: 0;
 }
 
