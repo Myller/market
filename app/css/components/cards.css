@@ -65,13 +65,13 @@
 }
 
 .card .rating-count::before {
-    content: '( ';
-    /*margin-right: 2px;*/
+    content: '(';
+    margin-right: 2px;
 }
 
 .card .rating-count::after {
-    content: ' )';
-    /*margin-left: 1px;*/
+    content: ')';
+    margin-left: 1px;
 }
 
 .card .rating-count::before,
