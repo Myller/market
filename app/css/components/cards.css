@@ -101,8 +101,8 @@
 .card.large-card .card-author {
     padding: 20px 30px;
 }
-
-/*=====medium-card=====*/
+/*===== large-card end =====*/
+/*===== medium-card =====*/
 .card.medium-card {
     max-width: 270px;
 }
@@ -112,6 +112,7 @@
 }
 
 .card.medium-card .card-title {
+    color: #263238;
     font-weight: 500;
 }
 
@@ -128,12 +129,15 @@
     margin-left: 8px;
 }
 
-/*=====aside-card=====*/
+/*===== medium-card end=====*/
+/*===== aside-card =====*/
 .card.aside-card {
     border-right: none;
     border-left: none;
 }
-
+.card.aside-card:not(:last-child) {
+    margin-bottom: 27px;
+}
 .card.aside-card .card-info {
     padding: 20px;
 }
@@ -146,16 +150,185 @@
     padding: 25px 0;
 }
 
-.card.aside-card .card-title {
-    font-weight: 500;
-}
-
 .card.aside-card .card-title:hover {
     font-weight: 600;
+    color: #263238;
 }
 
 .card.aside-card .card-author {
     margin-bottom: 28px;
 }
+/*===== aside-card end =====*/
+/*===== row-card ====*/
+.card.row-card {
+    max-width: 870px;
+    height: 180px;
+}
+
+.card.row-card .row-card-img {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    position: relative;
+}
+
+.card.row-card .row-card-content {
+    -webkit-box-flex: 7;
+        -ms-flex: 7;
+            flex: 7;
+    position: relative;
+    padding: 25px 30px 15px;
+}
+
+.card.row-card .card-info {
+    border-bottom: 1px solid #e7ecf2;
+    position: relative;
+}
+
+.card.row-card .card-title-info {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+    padding-bottom: 17px;
+}
+
+.card.row-card .card-title-info .card-title {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.card.row-card .card-title-info .card-title:hover {
+    font-weight: 600;
+    color: #263238;
+}
+
+.card.row-card .card-title-info .card-category {
+    line-height: 2.5;
+}
+
+.card.row-card .card-title-info .card-text {
+    font-size: 14px;
+    line-height: 1.285;
+    color: #70838d;
+}
+
+.card.row-card .card-price-info {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.card.row-card .card-price-info .card-price {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.card.row-card .card-price-info .card-sale {
+    font-size: 13px;
+    color: #aeb4bb;
+}
+
+.card.row-card .card-author {
+    padding-top: 16px;
+}
+
+.card.row-card .card-rating-info {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    text-align: right;
+}
+
+.card.row-card .card-rating-info ul, li {
+    display: inline;
+}
+
+.card.row-card .card-rating-info > ul > li {
+    font-size: 12px;
+}
+
+.card.row-card .card-rating-info > ul > li:not(:last-child) {
+    border-right: 1px solid #aeb4bb;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+.card.row-card .card-rating-info .count-post {
+    position: relative;
+    padding-left: 25px;
+}
+
+.card.row-card .card-rating-info .count-post i {
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    font-size: 16px;
+    color: #8bc34a;
+    font-weight: 400;
+}
+
+.card.row-card .card-rating-info .count-like {
+    position: relative;
+    padding-left: 25px;
+}
+
+.card.row-card .card-rating-info .count-like i {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    font-size: 16px;
+    color: #8bc34a;
+    font-weight: 400;
+}
+.card.row-card .card-rating-info .count-post:before,
+.card.row-card .card-rating-info .count-like:before {
+    content: '( ';
+}
+
+.card.row-card .card-rating-info .count-post:after,
+.card.row-card .card-rating-info .count-like:after {
+    content: ' )';
+}
+
+.card.row-card .card-rating-info .count-post:before,
+.card.row-card .card-rating-info .count-like:before,
+.card.row-card .card-rating-info .count-post:after,
+.card.row-card .card-rating-info .count-like:after {
+    color: #546e7a;
+}
+/*===== row-card end ====*/
+/*===== small-card ======*/
+.card.small-card {
+  max-width: 270px;
+}
+.card.small-card .card-info {
+    border-bottom:none;
+}
+.card.small-card .card-title {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.card.small-card .card-title:hover {
+    font-weight: 600;
+    color: #263238;
+}
+
+.card.small-card .card-category {
+    line-height: 2.2;
+    font-size: 12px;
+}
+
+.card.small-card  .card-price {
+    font-size: 18px;
+    line-height: 1;
+}
+.card.small-card .small-card-content {
+    padding: 20px 20px 10px;
+}
+
+/*===== small-card end======*/
+
 /*=====Cards end=====*/
 
