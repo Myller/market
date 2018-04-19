@@ -1,16 +1,20 @@
 /*=== Style text ===*/
+text-right {
+    text-align: right;
+}
+
 .title-bold {
     font-weight: 700;
 }
 
-.title-midium {
+.title-medium {
     font-weight: 500;
 }
 
 .title-regular {
     font-weight: 400;
 }
-text-capitalize {
+.text-capitalize {
     text-transform: capitalize;
 }
 
@@ -42,7 +46,7 @@ text-capitalize {
 
 .title.default-text {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .title.default-text.default-text-block {
