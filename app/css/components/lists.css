@@ -45,6 +45,9 @@
 /* ===Aside lists end=== */
 
 /* ===Footer lists=== */
+.footer-nav {
+    padding-top: 25px;
+}
 
 .text-footer {
     font-size: 15px;
@@ -56,7 +59,7 @@
     margin-right: 15px;
 }
 
-.footer-nav a+a {
+.footer-nav a {
     margin-top: 25px;
 }
 
