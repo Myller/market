@@ -32,15 +32,12 @@
     position: absolute;
     right: 23px;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 20px;
     height: 20px;
     background-color: transparent;
 }
 .inner .inner-search:hover{
-    -webkit-box-shadow: 1px 1px 5px rgba(124, 178, 64, .75),
-                -1px -1px 5px rgba(124, 178, 64, .75);
-            box-shadow: 1px 1px 5px rgba(124, 178, 64, .75),
+    box-shadow: 1px 1px 5px rgba(124, 178, 64, .75),
                 -1px -1px 5px rgba(124, 178, 64, .75);
 }
