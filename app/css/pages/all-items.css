@@ -1,0 +1,110 @@
+/** {*/
+    /*outline: 0 !important;*/
+/*}*/
+
+/*===== .all-products-wrapper start =====*/
+.all-products-wrapper {
+    width: 100%;
+    padding-bottom: 110px;
+}
+
+.all-products-wrapper .breadcrumb {
+    margin-bottom: 0;
+}
+
+.all-products-wrapper .aside-section button {
+    margin: auto;
+    margin-top: 16px;
+}
+
+.all-products-wrapper .aside-section .aside-btn {
+    display: inline-block;
+    width: 205px;
+    height: 46px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 46px;
+}
+
+.all-products-wrapper .aside-section .aside-btn:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.sort-controls {
+    color: #707070;
+}
+
+.sort-controls i {
+    background: #ffffff;
+    font-size: 18px;
+}
+
+.sort-controls .sorting-btn {
+    margin: 0 13px;
+    font-size: 14px;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.sort-controls .sorting-btn .dropdown-menu {
+    margin-top: 23px;
+    padding: 20px;
+    border: none;
+    -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .53);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, .53);
+}
+
+.sort-controls .sorting-btn .dropdown-item {
+    line-height: 3em;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+.sort-controls .sorting-btn .dropdown-item i {
+    color: #8bc34a;
+    margin-right: 10px;
+}
+
+.sort-controls .change-view-items.grid-list {
+    margin-left: 12px;
+}
+
+.all-items-container .row {
+    margin-top: 32px;
+}
+
+.all-items-container .pagination.pagination-lg {
+    padding-left: 0;
+    padding-top: 60px;
+    margin-left: 2px;
+}
+
+.all-items-container .pagination li {
+    text-align: center;
+}
+
+.all-items-container .pagination-lg .page-link {
+    padding: 0;
+}
+
+.all-items-container .pagination li a {
+    width: 42px;
+    height: 40px;
+    margin-left: 7px;
+    line-height: 2;
+}
+
+.all-items-container .pagination li a:hover,
+.all-items-container .pagination li a:active,
+.all-items-container .pagination li a:focus {
+    background-color: #e74c3c;
+}
+
+
+/*===== all-products-wrapper end =====*/
+
