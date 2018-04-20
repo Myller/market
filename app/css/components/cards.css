@@ -132,14 +132,12 @@
 /*===== medium-card end=====*/
 /*===== aside-card =====*/
 .card.aside-card {
-    border-right: none;
-    border-left: none;
+    border: none;
+    margin-bottom: 30px;
 }
-.card.aside-card:not(:last-child) {
-    margin-bottom: 27px;
-}
-.card.aside-card .card-info {
-    padding: 20px;
+.card.aside-card .card-img img {
+    max-width: 210px;
+    height: 120px;
 }
 
 .card.aside-card .card-info {
@@ -147,7 +145,7 @@
 }
 
 .card.aside-card .card-info {
-    padding: 25px 0;
+    padding: 20px 0 18px;
 }
 
 .card.aside-card .card-title:hover {
@@ -156,7 +154,16 @@
 }
 
 .card.aside-card .card-author {
-    margin-bottom: 28px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d9e0e3;
+}
+
+.card.aside-card:last-of-type .card-author {
+    border-bottom:none;
+}
+
+.card.aside-card:last-of-type {
+   margin-bottom:0;
 }
 /*===== aside-card end =====*/
 /*===== row-card ====*/

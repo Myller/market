@@ -1,0 +1,43 @@
+.inner{
+    background: url('../../../app/img/fon-inner.png') no-repeat center/cover;
+    height: 100vh;
+}
+.inner-content{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.inner-content .inner-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.inner-content .inner-text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 58px;
+}
+.inner .inner-content{
+    height: 100vh;
+}
+.inner .inner-search{
+    position: relative;
+}
+.inner-search input{
+    width: 670px;
+    padding: 23px 26px;
+    border-radius: 3px;
+}
+.inner-search button{
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+.inner .inner-search:hover{
+    box-shadow: 1px 1px 5px rgba(124, 178, 64, .75),
+                -1px -1px 5px rgba(124, 178, 64, .75);
+}

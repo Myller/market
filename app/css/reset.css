@@ -36,7 +36,7 @@ img {
 input,
 textarea,
 button{
-    outline: none;
+    outline: none !important;
     border: none;
 }
 button {
