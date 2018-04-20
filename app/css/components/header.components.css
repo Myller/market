@@ -93,7 +93,7 @@
     width: auto;
 }
 .dropdown-menu-items{
-    padding: 17px 22px;
+    padding: 17px 0;
     border-bottom: 2px solid #e0e0e0;
 }
 .dropdown-menu-items:last-child{
