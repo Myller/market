@@ -1,3 +1,4 @@
+
 /* ===Breadcrumbs=== */
 .breadcrumb {
     padding: 48px 0 42px 0;
@@ -25,179 +26,101 @@ ul.breadcrumb li {
 }
 /* ===Breadcrumbs end=== */
 
+
 /* ===Buttons=== */
-.btn-row {
-    padding: 30px;
+button:hover {
+    cursor: pointer;
 }
 
-.btn {
+.btn-custom {
     display: inline-block;
-    font-size: 18px;
-    border: none;
-    font-family: 'Roboto';
-    font-weight: 400;
-    text-align: center; 
-}
-
-.btn-xl {
-    width: 270px;
-    font-size: 16px;
-    color: #fff;
-    line-height: 30px;
-    height: 50px;
-}
-
-.btn-lg {
-    padding: 24px 42px;
-    color: rgb(38,50,56);
-}
-
-.btn-md {
-    width: 205px;
-    padding: 16px 0;
-    font-size: 15px;
-    color: #fff;
-}
-
-.btn-less {
-    width: 125px;
-    padding: 12px 0;
-    font-size: 14px;
-    color: rgb(244,246,245);
-}
-
-.btn-sm {
-    width: 105px;
-    padding: 12px 0;
-    font-size: 14px;
-    color: rgb(244,246,245);
-}
-
-.btn-xs {
-    padding: 8px 11px;
-    font-size: 13px;
-    border: 1px solid #d5d5d5;
-    color: rgb(112,112,112);
-}
-
-.btn-login {
-    font-size: 12px;
-    padding: 12px 15px;
-    color: rgb(255,255,255);
-    font-family: 'Roboto';
-    border-radius: 4px; 
-}
-.btn-item {
-    font-size: 16px;
-    width: 163px;
-    padding: 20px 0;
-    color: rgb(38,50,56);
-    box-shadow: 0 1px 3px 0 rgba(204, 216, 228, 0.75);
-}
-
-.btn-details {
-    font-size: 14px;
-    color: rgb(244,246,245);
-    width: 138px;
-    padding: 12px 0;
-}
-
-.btn-account {
-    width: 250px;
-    line-height: 30px;
-    color: #fff;
-    padding: 20px 45px;
-}
-
-.btn.btn-bold {
-    font-weight: bold;
-}
-
-.btn-submit {
-    color: #000;
-    text-transform: uppercase;
-    padding: 20px 45px;
-    box-shadow: 0 2px 2px rgba(114, 158, 76, .75);
-}
-
-.btn.btn-xl:hover {
-    color:#000;
-}
-
-.btn.btn-green {
-    background-color: rgb(139,195,74);
-}
-.btn.btn-green:hover {
-    background-color: #e74c3c;
-}
-
-.btn.btn-red {
-    background-color: rgb(231,76,60);
-}
-
-.btn.btn-white {
     background-color: #fff;
-}
-.btn-light-green {
-    background-color: #95c85a;
-}
-
-.btn.btn-blue {
-    background-color:rgb(63,137,195);
+    color: #263238;
+    padding: 18px 29px;
+    font: 400 16px/1 'Roboto', sans-serif;
+    box-shadow: 0 2px 2px rgb(232,236,238);
+    text-align: center;
 }
 
-.btn.btn-dark-blue {
-    background-color: rgb(75,98,109);
-}
-.btn-light-green:hover {
-    background-color: #e85647;
-}
-.btn.btn-white:hover {
-    background-color: rgb(163, 162, 162);
-    color: #fff;
+.btn-custom.btn-round {
+    border-radius: 4px;
 }
 
-.btn.btn-red:hover{
+.btn-custom.btn-lg {
+    font-size: 18px;
+    padding: 26px 38px;
+}
+
+.btn-custom.btn-md {
+    padding: 12px;
+    font-size: 14px;
+}
+
+.btn-custom.btn-sm {
+    padding: 9px 15px;
+    font-size: 12px;
+}
+
+.btn-custom.btn-xs {
+    font-size: 13px;
+    padding: 8px 11px;
+}
+
+.btn-custom.btn-white {
+    background-color: #fff;
+    color: #bbb;
+    border: 1px solid #d3d3d3;
+}
+
+
+.btn-custom.btn-green {
+    color: #f4f6f5;
     background-color: #8bc34a;
 }
 
-.btn.btn-login:hover {
+.btn-custom.btn-red {
+    color: #f4f6f5;
+    background-color: #e74c3c;
+}
+
+.btn-custom.btn-blue {
+    color: #f4f6f5;
+    background-color: #3f89c3;   
+}
+
+
+.btn-custom.btn-darkblue {
+    background-color: #455a64;
+}
+
+.btn-custom.btn-green:hover {
+    color: #000;
+    background-color: #6c973a;
+}
+
+.btn-custom.btn-red:hover {
+    background-color: #c84638;
+}
+
+.btn-custom.btn-darkblue:hover {
+    background-color: #324148;
+}
+
+.btn-custom:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.btn-custom i {
+    padding-right: 7px;
+}
+
+.btn-custom.btn-blue:hover {
     color: #fff;
+    background-color: #5fa7df;
 }
 
-.btn.btn-md:hover {
-    color: #000;
-}
 
-.btn.btn-sm:hover {
-    color: #000;
-}
-
-.btn.btn-details:hover {
-    color: #000;
-}
-.btn.btn-item {
-    box-shadow: none;
-}
-
-.btn.btn-aside {
-    font-size: 15px;
-}
-
-.btn.btn-submit:hover {
-    color:  #8bc34a;
-}
-
-.btn.btn-account:hover {
-    color: #000;
-    background-color: #95c85a;
-}
-
-.btn.btn-less:hover {
-    color: #000;
-}
-
-button:hover{
-    cursor: pointer;
-}
 /* ===Buttons end=== */
+
+

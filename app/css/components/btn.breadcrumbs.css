@@ -1,3 +1,4 @@
+
 /* ===Breadcrumbs=== */
 .breadcrumb {
     padding: 48px 0 42px 0;
@@ -25,6 +26,7 @@ ul.breadcrumb li {
 }
 /* ===Breadcrumbs end=== */
 
+
 /* ===Buttons=== */
 button:hover {
     cursor: pointer;
@@ -36,7 +38,8 @@ button:hover {
     color: #263238;
     padding: 18px 29px;
     font: 400 16px/1 'Roboto', sans-serif;
-    box-shadow: 0 2px 2px rgb(232,236,238);
+    -webkit-box-shadow: 0 2px 2px rgb(232,236,238);
+            box-shadow: 0 2px 2px rgb(232,236,238);
     text-align: center;
 }
 
@@ -70,6 +73,7 @@ button:hover {
     border: 1px solid #d3d3d3;
 }
 
+
 .btn-custom.btn-green {
     color: #f4f6f5;
     background-color: #8bc34a;
@@ -84,6 +88,7 @@ button:hover {
     color: #f4f6f5;
     background-color: #3f89c3;   
 }
+
 
 .btn-custom.btn-darkblue {
     background-color: #455a64;
@@ -116,4 +121,7 @@ button:hover {
     background-color: #5fa7df;
 }
 
+
 /* ===Buttons end=== */
+
+
