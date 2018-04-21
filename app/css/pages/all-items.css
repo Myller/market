@@ -1,7 +1,13 @@
 /** {*/
     /*outline: 0 !important;*/
 /*}*/
-
+.inner .inner-content {
+    height: 100vh;
+}
+.inner-content {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
 /*===== .all-products-wrapper start =====*/
 .all-products-wrapper {
     width: 100%;
