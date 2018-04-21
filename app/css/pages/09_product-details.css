@@ -1,0 +1,20 @@
+/* ===Product details=== */
+.border-grey {
+    border: 1px solid #dedede;
+}
+.product-details-page-container .product-details-img img {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product-details-page-container .product-text-description .title-product {
+    font-size: 30px;
+    letter-spacing: 0;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.product-details-page-container .product-text-description p {
+    line-height: 24px;
+    font-size: 16px;
+}
+/* ===Product details end=== */
