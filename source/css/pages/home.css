@@ -1,0 +1,13 @@
+.default-section{
+    padding: 120px 0;
+    background-color: #f4f6f5;
+}
+.product .section-title{
+    margin-bottom: 60px;
+}
+#tabs .cards-example + .cards-example{
+    margin-top: 30px;
+}
+.btn-product .btn-custom + .btn-custom{
+    margin-left: 12px;
+}
