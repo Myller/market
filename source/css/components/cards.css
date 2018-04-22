@@ -165,15 +165,52 @@
    margin-bottom:0;
 }
 /*===== aside-card end =====*/
+/*===== small-card ======*/
+.card.small-card {
+    max-width: 270px;
+}
+.card.small-card .card-info {
+    border-bottom:none;
+}
+.card.small-card .card-title {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.card.small-card .card-title:hover {
+    font-weight: 600;
+    color: #263238;
+}
+
+.card.small-card .card-category {
+    line-height: 2.2;
+    font-size: 12px;
+}
+
+.card.small-card  .card-price {
+    font-size: 18px;
+    line-height: 1;
+}
+.card.small-card .small-card-content {
+    padding: 20px 20px 10px;
+}
+
+/*===== small-card end======*/
 /*===== row-card ====*/
 .card.row-card {
+    display: none;
     max-width: 870px;
     height: 180px;
+    border: none;
 }
 
 .card.row-card .row-card-img {
     flex: 3;
     position: relative;
+    height: 100%;
+}
+.card.row-card .row-card-img img{
+    height: 100%;
 }
 
 .card.row-card .row-card-content {
@@ -294,36 +331,4 @@
     color: #546e7a;
 }
 /*===== row-card end ====*/
-/*===== small-card ======*/
-.card.small-card {
-  max-width: 270px;
-}
-.card.small-card .card-info {
-    border-bottom:none;
-}
-.card.small-card .card-title {
-    margin-bottom: 0;
-    font-size: 14px;
-}
-
-.card.small-card .card-title:hover {
-    font-weight: 600;
-    color: #263238;
-}
-
-.card.small-card .card-category {
-    line-height: 2.2;
-    font-size: 12px;
-}
-
-.card.small-card  .card-price {
-    font-size: 18px;
-    line-height: 1;
-}
-.card.small-card .small-card-content {
-    padding: 20px 20px 10px;
-}
-
-/*===== small-card end======*/
-/*=====Cards end=====*/
 
