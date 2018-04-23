@@ -40,11 +40,13 @@
     <!-- List CSS -->
     <link rel="stylesheet" href="../source/css/components/lists.css">
     <!-- Btn breadcrumbs CSS -->
-    <!--<link rel="stylesheet" href="../source/css/components/btn.breadcrumbs.css">-->
+    <link rel="stylesheet" href="../source/css/components/btn.breadcrumbs.css">
     <!-- Range CSS -->
     <link rel="stylesheet" href="../source/css/components/range.css">
     <!-- inner CSS -->
     <link rel="stylesheet" href="../source/css/components/inner.css">
+    <!-- Dropdown CSS -->
+    <link rel="stylesheet" href="../source/css/components/dropdown.css">
     <!-- Pages All-items CSS -->
     <link rel="stylesheet" href="../source/css/pages/all-items.css">
     <!--<link rel="stylesheet" href="css/style.css">-->
@@ -63,8 +65,7 @@
         <!-- /.help-text -->
         <ul class="header-dropdown d-flex align-items-center">
             <li class="dropdown bell">
-                <a class="header-dropdown-list bell-item" href="#" role="button" id="bell" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
+                <a class="header-dropdown-list bell-item" href="#" role="button" id="bell" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-bell-o"></i>
                 </a>
                 <div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="bell">
@@ -100,8 +101,7 @@
             </li>
             <!--/.dropdown-->
             <li class="dropdown envelope">
-                <a class="header-dropdown-list envelope-item" href="#" role="button" id="envelope"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="header-dropdown-list envelope-item" href="#" role="button" id="envelope" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-envelope-o"></i>
                 </a>
                 <div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="envelope">
@@ -140,8 +140,7 @@
             </li>
             <!--/.dropdown-->
             <li class="dropdown cart">
-                <a class="header-dropdown-list cart-item" href="#" role="button" id="cart" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
+                <a class="header-dropdown-list cart-item" href="#" role="button" id="cart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-shopping-cart"></i>
                 </a>
                 <div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="cart">
@@ -177,15 +176,12 @@
                             <span class="total">Total</span>
                             <span class="price ">118$</span>
                         </div>
-                        <div class="btn-row d-flex justify-content-between">
+                        <div class="d-flex justify-content-between">
                             <button>
                                 <a href="#" class="btn btn-sm btn-light-green btn-bold title-off-white">Go to Cart</a>
                             </button>
-                        </div>
-                        <div class="btn-row">
                             <a href="#" class="btn btn-less btn-red btn-bold title-off-white">Go to Checkout</a>
                         </div>
-                        <!--/btn-row-->
                     </div>
                 </div>
                 <!--/.dropdown-menu-->
@@ -199,13 +195,12 @@
             <div class="head-user-photo">
                 <img src="img/photo-user.png" alt="">
             </div>
-            <div class="head-user-item d-flex flex-column">
+            <div class="head-user-item d-flex flex-column ">
                 <div class="user-name">Mike Hussy
-                    <a class="head-user-photo" href="#" role="button" id="user" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
+                    <a class="head-user-chevron" href="#" role="button" id="user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-chevron-down"></i>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="user">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">
                         <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Profile Page</a>
                         <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Portfolio</a>
                         <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Account Setting</a>
@@ -222,16 +217,14 @@
             <!--/.head-user-item-->
         </div>
         <!-- /.head-user -->
-            <button>
-                <a href="#" class="btn btn-login btn-green title-white">Logout</a>
-            </button>
-        <!--/ btn-row-->
+        <button>
+            <a href="#" class="btn btn-login btn-green title-white">Logout</a>
+        </button>
+        <!--/.button-->
     </div>
     <!-- /.container -->
 </div>
 <!--/.top-header-->
-
-
 <div class="bottom-header">
     <div class="header-nav d-flex align-items-center">
         <div class="container">
@@ -251,6 +244,7 @@
 </div>
 <!--/bottom-header-->
 </header>
+
 <!--HEADER-END-->
 
 <!-- MAIN-START -->
@@ -319,7 +313,7 @@
                                 </a>
                             </div>
                             <!-- / card-img -->
-                            <div class="card-desciption bg-white">
+                            <div class="card-description bg-white">
                                 <div class="card-info d-flex align-items-center">
                                     <div class="d-flex flex-column">
                                         <a href="" class="card-title title default-text title-dark text-capitalize">Item
@@ -346,7 +340,7 @@
                                 </div>
                                 <!-- /card-author -->
                             </div>
-                            <!-- / card-desciption -->
+                            <!-- / card-description -->
                         </div>
                         <!-- / card aside-card -->
                         <div class="card aside-card">
@@ -356,7 +350,7 @@
                                 </a>
                             </div>
                             <!-- / card-img -->
-                            <div class="card-desciption bg-white">
+                            <div class="card-description bg-white">
                                 <div class="card-info d-flex align-items-center">
                                     <div class="d-flex flex-column">
                                         <a href="" class="card-title title default-text title-dark text-capitalize">Item
@@ -383,7 +377,7 @@
                                 </div>
                                 <!-- /card-author -->
                             </div>
-                            <!-- / card-desciption -->
+                            <!-- / card-description -->
                         </div>
                         <!-- / card aside-card -->
                         <div class="card aside-card">
@@ -393,7 +387,7 @@
                                 </a>
                             </div>
                             <!-- / card-img -->
-                            <div class="card-desciption bg-white">
+                            <div class="card-description bg-white">
                                 <div class="card-info d-flex align-items-center">
                                     <div class="d-flex flex-column">
                                         <a href="" class="card-title title default-text title-dark text-capitalize">Item
@@ -420,7 +414,7 @@
                                 </div>
                                 <!-- /card-author -->
                             </div>
-                            <!-- / card-desciption -->
+                            <!-- / card-description -->
                         </div>
                         <!-- / card aside-card -->
                         <button>
@@ -464,7 +458,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -490,7 +484,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -503,7 +497,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -529,7 +523,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -542,7 +536,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -568,127 +562,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
-                                </div>
-                                <!-- / card medium-card -->
-                            </div>
-                            <!-- / col -->
-                        </div>
-                        <!--/ row-->
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="card medium-card">
-                                    <div class="card-img">
-                                        <a href="">
-                                            <img src="img/medium-card.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
-                                        <div class="card-info d-flex align-items-center">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
-                                                <a href="" class="card-category title-green title default-text-small  text-capitalize">PSD
-                                                    Template</a>
-                                            </div>
-                                            <span class="card-price ml-auto title title-bold title-dark">$19</span>
-                                        </div>
-                                        <!-- /card-info -->
-                                        <div class="card-author d-flex align-items-center">
-                                            <a href="" class=card-author-img>
-                                                <img src="img/card-author-img.png" alt="">
-                                                <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
-                                            </a>
-                                            <ul class="card-product-rating title-orange list-inline ml-auto">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                            <span class="rating-count title-dark">05</span>
-                                        </div>
-                                        <!-- /card-author -->
-                                    </div>
-                                    <!-- / card-desciption -->
-                                </div>
-                                <!-- / card medium-card -->
-                            </div>
-                            <!-- / col -->
-                            <div class="col-4">
-                                <div class="card medium-card">
-                                    <div class="card-img">
-                                        <a href="">
-                                            <img src="img/medium-card.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
-                                        <div class="card-info d-flex align-items-center">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
-                                                <a href="" class="card-category title-green title default-text-small  text-capitalize">PSD
-                                                    Template</a>
-                                            </div>
-                                            <span class="card-price ml-auto title title-bold title-dark">$19</span>
-                                        </div>
-                                        <!-- /card-info -->
-                                        <div class="card-author d-flex align-items-center">
-                                            <a href="" class=card-author-img>
-                                                <img src="img/card-author-img.png" alt="">
-                                                <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
-                                            </a>
-                                            <ul class="card-product-rating title-orange list-inline ml-auto">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                            <span class="rating-count title-dark">05</span>
-                                        </div>
-                                        <!-- /card-author -->
-                                    </div>
-                                    <!-- / card-desciption -->
-                                </div>
-                                <!-- / card medium-card -->
-                            </div>
-                            <!-- / col -->
-                            <div class="col-4">
-                                <div class="card medium-card">
-                                    <div class="card-img">
-                                        <a href="">
-                                            <img src="img/medium-card.png" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
-                                        <div class="card-info d-flex align-items-center">
-                                            <div class="d-flex flex-column">
-                                                <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
-                                                <a href="" class="card-category title-green title default-text-small  text-capitalize">PSD
-                                                    Template</a>
-                                            </div>
-                                            <span class="card-price ml-auto title title-bold title-dark">$19</span>
-                                        </div>
-                                        <!-- /card-info -->
-                                        <div class="card-author d-flex align-items-center">
-                                            <a href="" class=card-author-img>
-                                                <img src="img/card-author-img.png" alt="">
-                                                <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
-                                            </a>
-                                            <ul class="card-product-rating title-orange list-inline ml-auto">
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                            <span class="rating-count title-dark">05</span>
-                                        </div>
-                                        <!-- /card-author -->
-                                    </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -704,7 +578,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -730,7 +604,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -743,7 +617,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -769,7 +643,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -782,7 +656,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -808,7 +682,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -824,7 +698,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -850,7 +724,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -863,7 +737,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -889,7 +763,7 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
@@ -902,7 +776,7 @@
                                         </a>
                                     </div>
                                     <!-- / card-img -->
-                                    <div class="card-desciption bg-white">
+                                    <div class="card-description bg-white">
                                         <div class="card-info d-flex align-items-center">
                                             <div class="d-flex flex-column">
                                                 <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
@@ -928,7 +802,127 @@
                                         </div>
                                         <!-- /card-author -->
                                     </div>
-                                    <!-- / card-desciption -->
+                                    <!-- / card-description -->
+                                </div>
+                                <!-- / card medium-card -->
+                            </div>
+                            <!-- / col -->
+                        </div>
+                        <!--/ row-->
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card medium-card">
+                                    <div class="card-img">
+                                        <a href="">
+                                            <img src="img/medium-card.png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img -->
+                                    <div class="card-description bg-white">
+                                        <div class="card-info d-flex align-items-center">
+                                            <div class="d-flex flex-column">
+                                                <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
+                                                <a href="" class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                    Template</a>
+                                            </div>
+                                            <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                                        </div>
+                                        <!-- /card-info -->
+                                        <div class="card-author d-flex align-items-center">
+                                            <a href="" class=card-author-img>
+                                                <img src="img/card-author-img.png" alt="">
+                                                <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
+                                            </a>
+                                            <ul class="card-product-rating title-orange list-inline ml-auto">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="rating-count title-dark">05</span>
+                                        </div>
+                                        <!-- /card-author -->
+                                    </div>
+                                    <!-- / card-description -->
+                                </div>
+                                <!-- / card medium-card -->
+                            </div>
+                            <!-- / col -->
+                            <div class="col-4">
+                                <div class="card medium-card">
+                                    <div class="card-img">
+                                        <a href="">
+                                            <img src="img/medium-card.png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img -->
+                                    <div class="card-description bg-white">
+                                        <div class="card-info d-flex align-items-center">
+                                            <div class="d-flex flex-column">
+                                                <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
+                                                <a href="" class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                    Template</a>
+                                            </div>
+                                            <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                                        </div>
+                                        <!-- /card-info -->
+                                        <div class="card-author d-flex align-items-center">
+                                            <a href="" class=card-author-img>
+                                                <img src="img/card-author-img.png" alt="">
+                                                <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
+                                            </a>
+                                            <ul class="card-product-rating title-orange list-inline ml-auto">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="rating-count title-dark">05</span>
+                                        </div>
+                                        <!-- /card-author -->
+                                    </div>
+                                    <!-- / card-description -->
+                                </div>
+                                <!-- / card medium-card -->
+                            </div>
+                            <!-- / col -->
+                            <div class="col-4">
+                                <div class="card medium-card">
+                                    <div class="card-img">
+                                        <a href="">
+                                            <img src="img/medium-card.png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- / card-img -->
+                                    <div class="card-description bg-white">
+                                        <div class="card-info d-flex align-items-center">
+                                            <div class="d-flex flex-column">
+                                                <a href="" class="card-title title default-text title-dark text-capitalize">Item title</a>
+                                                <a href="" class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                    Template</a>
+                                            </div>
+                                            <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                                        </div>
+                                        <!-- /card-info -->
+                                        <div class="card-author d-flex align-items-center">
+                                            <a href="" class=card-author-img>
+                                                <img src="img/card-author-img.png" alt="">
+                                                <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
+                                            </a>
+                                            <ul class="card-product-rating title-orange list-inline ml-auto">
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                            <span class="rating-count title-dark">05</span>
+                                        </div>
+                                        <!-- /card-author -->
+                                    </div>
+                                    <!-- / card-description -->
                                 </div>
                                 <!-- / card medium-card -->
                             </div>
