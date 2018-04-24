@@ -1,127 +1,1 @@
-
-/* ===Breadcrumbs=== */
-.breadcrumb {
-    padding: 48px 0 42px 0;
-}
-ul.breadcrumb li {
-    display: inline-block;
-    font-size: 15px;
-    line-height: 40px;
-    color: rgb(176,190,197);
-    font-family: 'Roboto';
-    font-weight: 400;
-}
-
-.breadcrumb > .active {
-    color:rgb(38,50,56);
-}
-.breadcrumb > li a:focus,
-.breadcrumb > li a:hover {
-    color: rgb(139,195,74);
-}
-.breadcrumb > li + li:before {
-    padding: 0 5px;
-    color:rgb(139,195,74);
-    content: '-';
-}
-/* ===Breadcrumbs end=== */
-
-
-/* ===Buttons=== */
-button:hover {
-    cursor: pointer;
-}
-
-.btn-custom {
-    display: inline-block;
-    background-color: #fff;
-    color: #263238;
-    padding: 18px 29px;
-    font: 400 16px/1 'Roboto', sans-serif;
-    -webkit-box-shadow: 0 2px 2px rgb(232,236,238);
-            box-shadow: 0 2px 2px rgb(232,236,238);
-    text-align: center;
-}
-
-.btn-custom.btn-round {
-    border-radius: 4px;
-}
-
-.btn-custom.btn-lg {
-    font-size: 18px;
-    padding: 26px 38px;
-}
-
-.btn-custom.btn-md {
-    padding: 12px;
-    font-size: 14px;
-}
-
-.btn-custom.btn-sm {
-    padding: 9px 15px;
-    font-size: 12px;
-}
-
-.btn-custom.btn-xs {
-    font-size: 13px;
-    padding: 8px 11px;
-}
-
-.btn-custom.btn-white {
-    background-color: #fff;
-    color: #bbb;
-    border: 1px solid #d3d3d3;
-}
-
-
-.btn-custom.btn-green {
-    color: #f4f6f5;
-    background-color: #8bc34a;
-}
-
-.btn-custom.btn-red {
-    color: #f4f6f5;
-    background-color: #e74c3c;
-}
-
-.btn-custom.btn-blue {
-    color: #f4f6f5;
-    background-color: #3f89c3;   
-}
-
-
-.btn-custom.btn-darkblue {
-    background-color: #455a64;
-}
-
-.btn-custom.btn-green:hover {
-    color: #000;
-    background-color: #6c973a;
-}
-
-.btn-custom.btn-red:hover {
-    background-color: #c84638;
-}
-
-.btn-custom.btn-darkblue:hover {
-    background-color: #324148;
-}
-
-.btn-custom:hover {
-    background-color: #f1f1f1;
-    color: #000;
-}
-
-.btn-custom i {
-    padding-right: 7px;
-}
-
-.btn-custom.btn-blue:hover {
-    color: #fff;
-    background-color: #5fa7df;
-}
-
-
-/* ===Buttons end=== */
-
-
+/* ===Breadcrumbs=== */.breadcrumb {    padding: 48px 0 42px 0;}ul.breadcrumb li {    display: inline-block;    font-size: 15px;    line-height: 40px;    color: rgb(176,190,197);    font-family: 'Roboto';    font-weight: 400;}.breadcrumb > .active {    color:rgb(38,50,56);}.breadcrumb > li a:focus,.breadcrumb > li a:hover {    color: rgb(139,195,74);}.breadcrumb > li + li:before {    padding: 0 5px;    color:rgb(139,195,74);    content: '-';}/* ===Breadcrumbs end=== *//* ===Buttons=== */button:hover {    cursor: pointer;}.btn-custom {    display: inline-block;    background-color: #fff;    color: #263238;    padding: 18px 29px;    font: 400 16px/1 'Roboto', sans-serif;    -webkit-box-shadow: 0 2px 2px rgb(232,236,238);    box-shadow: 0 2px 2px rgb(232,236,238);    text-align: center;}.btn-custom.btn-round {    border-radius: 4px;}.btn-custom.btn-lg {    font-size: 18px;    padding: 26px 38px;}.btn-custom.btn-md {    padding: 12px;    font-size: 14px;}.btn-custom.btn-sm {    padding: 9px 15px;    font-size: 12px;}.btn-custom.btn-xs {    font-size: 13px;    padding: 8px 11px;}.btn-custom.btn-white {    background-color: #fff;    color: #bbb;    border: 1px solid #d3d3d3;}.btn-custom.btn-green {    color: #f4f6f5;    background-color: #8bc34a;}.btn-custom.btn-red {    color: #f4f6f5;    background-color: #e74c3c;}.btn-custom.btn-blue {    color: #f4f6f5;    background-color: #3f89c3;   }.btn-custom.btn-darkblue {    background-color: #455a64;}.btn-custom.btn-green:hover {    color: #000;    background-color: #6c973a;}.btn-custom.btn-red:hover {    background-color: #c84638;}.btn-custom.btn-darkblue:hover {    background-color: #324148;}.btn-custom:hover {    background-color: #f1f1f1;    color: #000;}.btn-custom i {    padding-right: 7px;}.btn-custom.btn-blue:hover {    color: #fff;    background-color: #5fa7df;}/* ===Buttons end=== */

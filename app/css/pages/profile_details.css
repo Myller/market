@@ -1,0 +1,12 @@
+/*----breadcrumbs----*/
+.profile_details{
+    background-color: #f4f6f5;
+}
+.profile_details .breadcrumb{
+    background-color: transparent;
+}
+
+.producer{
+    margin-bottom: 100px;
+}
+/*----breadcrumbs end----*/
