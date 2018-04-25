@@ -1,6 +1,8 @@
 const gulp = require('gulp'); // Init Gulp
 const autoprefixer = require('gulp-autoprefixer'); // Init Gulp autoprefixer
 const concat = require('gulp-concat'); // Init Gulp concat
+const spritesmith = require('gulp.spritesmith'); // Подключение спрайт (создание спрайтов)
+const merge = require('merge-stream'); // Подключение merge-stream
 
 
 // Autoprefixer
@@ -22,6 +24,26 @@ gulp.task('concat-css', function () {
     ])
         .pipe(concat('style.css'))
         .pipe(gulp.dest('app/css'))
+});
+//Generate sprite
+gulp.task('sprite', function () {
+    let spriteData = gulp.src('source/sprite/*.png')
+        .pipe(spritesmith({ // Настройка спрайта
+            imgName: 'sprite.png',
+            cssName: 'sprite.css',
+            imgPath: '../img/sprite.png'
+        }));
+
+    let imgStream = spriteData.img
+        .pipe(gulp.dest('app/img/'));
+
+    let cssStream = spriteData.css
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('source/css/components/'));
+    return merge(imgStream, cssStream);
 });
 
 // Watch

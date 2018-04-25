@@ -1,3 +1,4 @@
+/*====Reset====*/
 *{
     box-sizing: border-box;
 }
@@ -51,3 +52,11 @@ input[type="submit"]{
 blockquote {
     margin: 0;
 }
+
+/*====Reset end====*/
+
+/*----default components----*/
+.icon {
+    display: inline-block;
+}
+/*----default components----*/
