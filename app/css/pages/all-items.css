@@ -9,6 +9,7 @@
     height: 32px;
     color: #fff;
 }
+
 /*===== inner-all-items start ====== */
 .inner-all-items {
     background: url('../../../app/img/fon-inner.png') no-repeat center/cover;
@@ -35,6 +36,7 @@
     margin-right: auto;
     margin-top: 20px;
 }
+
 .inner-all-items .form-control-search::-webkit-input-placeholder {
     color: #90a4ae;
 }
@@ -78,6 +80,7 @@
             box-shadow: 1px 1px 5px rgba(124, 178, 64, .75),
     -1px -1px 5px rgba(124, 178, 64, .75);
 }
+
 /*===== inner-all-items end ====== */
 /*===== all-products-wrapper start =====*/
 .all-products-wrapper {
@@ -167,6 +170,7 @@
 .sort-controls .change-view-items.grid-list {
     margin-left: 12px;
 }
+
 /*===== all-items pagination start ======*/
 .all-items-container .pagination.pagination-lg {
     padding-left: 0;
@@ -194,6 +198,7 @@
 .all-items-container .pagination li a:focus {
     background-color: #e74c3c;
 }
+
 /*===== all-items pagination end ======*/
 /*===== all-products-wrapper end =====*/
 .footer-nav {

@@ -55,6 +55,7 @@
 .card .card-product-rating i {
     font-size: 12px;
 }
+
 .card .card-product-rating .list-inline-item:not(:last-child) {
     margin-right: .05rem;
 }
@@ -129,11 +130,13 @@
     font-size: 12px;
     margin-left: 8px;
 }
+
 /*===== medium-card end=====*/
 /*===== aside-card =====*/
 .guide-show-aside {
     width: 270px;
 }
+
 .card.aside-card {
     border: none;
     margin-bottom: 30px;
@@ -173,13 +176,16 @@
     .card.aside-card .card-img img {
         height: auto;
     }
+
     .card.aside-card .card-product-rating .list-inline-item:not(:last-child) {
         margin-right: .5rem;
     }
+
     .card.aside-card .card-price {
         font-size: 25px;
     }
 }
+
 /*===== aside-card end =====*/
 /*===== small-card ======*/
 .card.small-card {
