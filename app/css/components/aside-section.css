@@ -1,12 +1,12 @@
 /* === aside section start === */
-.aside-section{
+.aside-section {
     border-radius: 0;
-    width: 270px;
     padding: 10px 30px 30px 30px;
     border: 1px solid #dedede;
     background-color: #fff;
 }
-.aside-title{
+
+.aside-title {
     font-size: 20px;
     line-height: 2.5;
     border-bottom: 1px solid #dde3e8;
@@ -15,18 +15,22 @@
 .aside-section:not(:first-child) .aside-title {
     margin-bottom: 30px;
 }
-.aside-section + .aside-section{
+
+.aside-section + .aside-section {
     margin-top: 30px;
 }
+
 .aside-section-list {
-    margin-top:0;
+    margin-top: 0;
     margin-bottom: 13px;
 }
+
 .aside-section-list a {
     color: #263238;
     font-size: 14px;
 
 }
+
 .aside-section-list i {
     color: #8bc34a;
     margin-right: 10px;
@@ -40,20 +44,63 @@
     color: #90a4ae;
     float: right;
 }
+
+@media (max-width: 991px) {
+    .mobile-aside {
+        position: fixed;
+        top: 15px;
+        left: 0;
+        z-index: 999;
+        overflow-y: auto;
+        height: 100vh;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+    }
+
+    .mobile-aside.left {
+        -webkit-transform: translateX(-110%);
+                transform: translateX(-110%);
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, .4);
+        z-index: -1;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+    }
+
+    #main.show-aside .mobile-aside.left {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
+
+    #main.show-aside .overlay {
+        z-index: 998;
+        opacity: 1;
+    }
+
+    .card.aside-card .card-img img {
+        height: auto;
+    }
+
+    body.overflow {
+        overflow: hidden;
+    }
+}
+
 /* === aside section end === */
 /*1170+30=1200*/
 .container {
     max-width: 1200px;
-    padding: 0 15px;
-    margin: auto;
 }
+
 /*870+30=900*/
 .container-small {
     max-width: 900px;
-    padding: 0 15px;
-    margin: auto;
-}
-
-.container-fluid {
-    padding: 0 15px;
 }
