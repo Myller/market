@@ -1,4 +1,5 @@
-/*====Cards start====*/
+/*===== CARD STYLE START ====*/
+/*==== Cards start ====*/
 .card {
     border-radius: 0;
     border-color: #d9e0e3;
@@ -37,8 +38,8 @@
     width: 100%;
 }
 
-.card .card-info {
-    border-bottom: 1px solid #d9e0e3;
+.card .card-author {
+    border-top: 1px solid #d9e0e3;
 }
 
 .card .card-category:hover {
@@ -56,7 +57,7 @@
 }
 
 .card .card-product-rating .list-inline-item:not(:last-child) {
-    margin-right: .0rem;
+    margin-right: .05rem;
 }
 
 .card .rating-count {
@@ -101,10 +102,11 @@
 .card.large-card .card-author {
     padding: 20px 30px;
 }
+
 /*===== large-card end =====*/
 /*===== medium-card =====*/
 .card.medium-card {
-    max-width: 270px;
+    margin-bottom: 32px;
 }
 
 .card.medium-card .card-info {
@@ -131,17 +133,21 @@
 
 /*===== medium-card end=====*/
 /*===== aside-card =====*/
+.guide-show-aside {
+    width: 270px;
+}
+
 .card.aside-card {
     border: none;
     margin-bottom: 30px;
 }
+
 .card.aside-card .card-img img {
-    max-width: 210px;
     height: 120px;
 }
 
-.card.aside-card .card-info {
-    border-bottom: none;
+.card.aside-card .card-author {
+    border-top: none;
 }
 
 .card.aside-card .card-info {
@@ -159,20 +165,37 @@
 }
 
 .card.aside-card:last-of-type .card-author {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 .card.aside-card:last-of-type {
-   margin-bottom:0;
+    margin-bottom: 0;
 }
+
+@media (max-width: 991px) {
+    .card.aside-card .card-img img {
+        height: auto;
+    }
+
+    .card.aside-card .card-product-rating .list-inline-item:not(:last-child) {
+        margin-right: .5rem;
+    }
+
+    .card.aside-card .card-price {
+        font-size: 25px;
+    }
+}
+
 /*===== aside-card end =====*/
 /*===== small-card ======*/
 .card.small-card {
     max-width: 270px;
 }
+
 .card.small-card .card-info {
-    border-bottom:none;
+    border-bottom: none;
 }
+
 .card.small-card .card-title {
     margin-bottom: 0;
     font-size: 14px;
@@ -188,158 +211,116 @@
     font-size: 12px;
 }
 
-.card.small-card  .card-price {
+.card.small-card .card-price {
     font-size: 18px;
     line-height: 1;
 }
+
 .card.small-card .small-card-content {
     padding: 20px 20px 10px;
 }
 
 /*===== small-card end======*/
-/*===== row-card ====*/
-.card.row-card {
+/*===== row-card start =====*/
+.card .card-text-info,
+.card .card-comment {
     display: none;
-    max-width: 870px;
-    height: 180px;
-    border: none;
 }
 
-.card.row-card .row-card-img {
+.card.row-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 30px;
+    border: none;
+    height: 180px;
+}
+
+.card.row-card .card-img {
     -webkit-box-flex: 3;
         -ms-flex: 3;
             flex: 3;
     position: relative;
+}
+
+.card.row-card .card-img img {
+    display: block;
     height: 100%;
 }
-.card.row-card .row-card-img img{
-    height: 100%;
+
+.card.row-card .card-description {
+    -webkit-box-flex: 8;
+        -ms-flex: 8;
+            flex: 8;
 }
 
-.card.row-card .row-card-content {
-    -webkit-box-flex: 7;
-        -ms-flex: 7;
-            flex: 7;
-    position: relative;
-    padding: 25px 30px 15px;
+.card.row-card .card-text-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    padding: 0 30px 20px;
 }
 
-.card.row-card .card-info {
-    border-bottom: 1px solid #e7ecf2;
-    position: relative;
-}
-
-.card.row-card .card-title-info {
-    -webkit-box-flex: 6;
-        -ms-flex: 6;
-            flex: 6;
-    padding-bottom: 17px;
-}
-
-.card.row-card .card-title-info .card-title {
-    margin-bottom: 0;
-    line-height: 1;
-}
-
-.card.row-card .card-title-info .card-title:hover {
-    font-weight: 600;
-    color: #263238;
-}
-
-.card.row-card .card-title-info .card-category {
-    line-height: 2.5;
-}
-
-.card.row-card .card-title-info .card-text {
+.card.row-card .card-text-info .card-text {
     font-size: 14px;
-    line-height: 1.285;
     color: #70838d;
 }
 
-.card.row-card .card-price-info {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+.card.row-card .card-info {
+    padding: 22px 30px 0;
 }
 
-.card.row-card .card-price-info .card-price {
+.card.row-card .card-price {
     font-size: 30px;
-    line-height: 1.6;
-    margin-bottom: 8px;
 }
 
-.card.row-card .card-price-info .card-sale {
+.card.row-card .card-sale {
     font-size: 13px;
     color: #aeb4bb;
 }
 
-.card.row-card .card-author {
-    padding-top: 16px;
+.card.row-card .card-product-rating .list-inline-item {
+    margin-right: .3rem;
 }
 
-.card.row-card .card-rating-info {
-    -webkit-box-flex: 5;
-        -ms-flex: 5;
-            flex: 5;
-    text-align: right;
-}
-
-.card.row-card .card-rating-info ul, li {
-    display: inline;
-}
-
-.card.row-card .card-rating-info > ul > li {
+.card.row-card .card-comment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-size: 12px;
-}
-
-.card.row-card .card-rating-info > ul > li:not(:last-child) {
-    border-right: 1px solid #aeb4bb;
-    margin-right: 15px;
-    padding-right: 15px;
-}
-
-.card.row-card .card-rating-info .count-post {
+    border-left: 1px solid #aeb4bb;
+    margin-left: 27px;
+    padding-left: 60px;
     position: relative;
-    padding-left: 25px;
 }
 
-.card.row-card .card-rating-info .count-post i {
+.card.row-card .card-comment i {
     position: absolute;
     left: 0px;
-    top: -1px;
+    top: -2px;
     font-size: 16px;
     color: #8bc34a;
     font-weight: 400;
+    margin-left: 20px;
 }
 
-.card.row-card .card-rating-info .count-like {
-    position: relative;
-    padding-left: 25px;
+.card.row-card .card-comment:before {
+    content: ' ( ';
 }
 
-.card.row-card .card-rating-info .count-like i {
-    position: absolute;
-    left: 0px;
-    top: 0;
-    font-size: 16px;
-    color: #8bc34a;
-    font-weight: 400;
-}
-.card.row-card .card-rating-info .count-post:before,
-.card.row-card .card-rating-info .count-like:before {
-    content: '( ';
+.card.row-card .card-comment:after {
+    content: ' ) ';
 }
 
-.card.row-card .card-rating-info .count-post:after,
-.card.row-card .card-rating-info .count-like:after {
-    content: ' )';
+.card.row-card .card-comment:before,
+.card.row-card .card-comment:after {
+    color: #b0bec5;
 }
 
-.card.row-card .card-rating-info .count-post:before,
-.card.row-card .card-rating-info .count-like:before,
-.card.row-card .card-rating-info .count-post:after,
-.card.row-card .card-rating-info .count-like:after {
-    color: #546e7a;
-}
 /*===== row-card end ====*/
-
+/*===== CARD STYLE END ====*/
