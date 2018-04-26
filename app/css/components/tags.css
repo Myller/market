@@ -1,43 +1,33 @@
-/* ===Tags=== */
-.tag-section {
-    padding: 20px;
+/*----Tabs----*/
+#tabs{
+    margin-bottom: 78px;
 }
-
-.bg-grey {
-    background-color: #b5b5b5;
-} 
-
-.tags {
+#tabs .tags{
+    text-align: center;
+    margin-bottom: 60px;
+}
+#tabs .tags li{
+    display: inline-block;
     font-size: 14px;
     font-weight: 500;
-}
-.tag-item {
-    background-color: #fff;
-    padding: 14px 25px;
     color: #263238;
 }
-.tags  .tag-item + .tag-item  {
-     margin-left: 9px;
- }
-.tags .tag-item.active {
+#tabs .tags li a{
+    padding: 14px 25px;
+    background-color: #ffffff;
+}
+#tabs .tags li.ui-state-active a{
+    color: #fff;
+    background-color: rgb(218,110,99);
+}
+#tabs .tags a:hover,
+.btn-product .btn-custom:hover{
     background-color: rgb(218,110,99);
     color: #fff;
     -webkit-box-shadow: 0 2px 4px rgba(244,246,245, .75);
             box-shadow: 0 2px 4px rgba(244,246,245, .75);
-}
-.tag-item a:hover {
-    color: #fff;
-}
-
-.tags .tag-item:hover {
-    background-color: rgb(218,110,99);
-    color: #fff;
-    -webkit-box-shadow: 0 2px 4px rgba(244,246,245, .75);
-            box-shadow: 0 2px 4px rgba(244,246,245, .75); 
-    -webkit-transition: all .2s ease-out; 
+    -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out;
 }
 
-/*===Tags end===*/
-
-
+/*----Tabs end----*/

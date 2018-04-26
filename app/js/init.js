@@ -1,17 +1,13 @@
-//Select init
-$('select').styler();
+// Init Tabs
+$( function() {
+    $( "#tabs" ).tabs();
+} );
 
-// Slick carousel init
 $('.trending-carousel').slick({
-    true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-
-    arrows:false,
-    dots: true,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 2,
+    dots: true
 });
 
 // Switch product items view
@@ -26,3 +22,5 @@ $('.grid-list').on('click', function(){
     $('.all-items-container .card').addClass('row-card');
     $('.all-items-container .col-4').addClass('col-12');
 });
+
+

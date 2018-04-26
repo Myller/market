@@ -1,0 +1,105 @@
+/*====Main home ====*/
+.default-section{
+    padding: 120px 0;
+
+}
+/*----product----*/
+
+.product{
+    background-color: #f4f6f5;
+}
+.product .section-title{
+    margin-bottom: 60px;
+}
+#tabs .cards-example + .cards-example{
+    margin-top: 30px;
+}
+.btn-product .btn-custom + .btn-custom{
+    margin-left: 12px;
+}
+
+/*----product end----*/
+
+/*----carousel----*/
+.trending-carousel .slick-slide{
+    padding: 0 15px;
+}
+.trending-carousel .slick-prev,
+.trending-carousel .slick-next{
+    display: none !important;
+}
+.trending-carousel .slick-dots{
+    display: block;
+    text-align: center;
+    margin-top: 67px;
+}
+.slick-dots li{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #e8e8e8;
+    box-shadow: inset 0 1px 1px #b1b1b1;
+    border-radius: 50%;
+}
+.slick-dots .slick-active{
+    background-color: #8bc34a;
+    box-shadow: none;
+}
+.slick-dots li + li{
+    margin-left: 7px;
+}
+.slick-dots li button{
+    display: none;
+}
+/*----carousel end----*/
+
+/*----why-choose----*/
+.why-choose{
+    background-color: #263238;
+}
+/*----why-choose end----*/
+
+/*----involve-author----*/
+.involve-author{
+    background-color: #f4f6f5;
+}
+.involve-author .involve-author-bg{
+    background-color: #b5b5b5;
+    width: 1105px;
+    height: 438px;
+}
+.involve-author-item{
+    width: 653px;
+    height: 216px;
+    background-color: #8bc34a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.involve-author-item p{
+    font-size: 30px;
+    line-height: 1.1em;
+    max-width: 260px;
+    margin-right: 50px;
+}
+.involve-author-item a{
+    font-size: 18px;
+    background-color: #fff;
+    padding: 19px 45px;
+    border: none;
+    border-radius: 0;
+}
+/*----involve-author end----*/
+
+/*----tutorials----*/
+.tutorials li{
+    margin:  0 15px;
+}
+.tutorials-items a{
+    text-align: center;
+}
+
+/*----tutorials end----*/
+
+
+/*====Main home end====*/

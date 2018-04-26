@@ -1,5 +1,5 @@
 /*=== Style text ===*/
-text-right {
+.text-right {
     text-align: right;
 }
 
@@ -19,7 +19,7 @@ text-right {
 }
 
 .title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .title.large-size-title {
