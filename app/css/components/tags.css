@@ -30,4 +30,47 @@
     transition: all .2s ease-out;
 }
 
+
+#tabs .info{
+    background-color: #fff;
+}
+
+#tabs .info li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #d7d7d7;
+}
+#tabs .info li i{
+    margin-right: 13px;
+    color: #d0d0d0;
+}
+#tabs .info li a {
+    height: 100%;
+    width: 100%;
+    padding: 18px 30px 16px 30px;
+    text-transform: capitalize;
+}
+#tabs .info li:hover a {
+    color: #000;
+}
+#tabs .info li:hover a i{
+    color: #8bc34a;
+}
+#tabs .info li:hover{
+    border-bottom: 2px solid #8bc34a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----Tabs end----*/

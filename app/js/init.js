@@ -2,7 +2,6 @@
 $( function() {
     $( "#tabs" ).tabs();
 } );
-
 $('.trending-carousel').slick({
     infinite: true,
     slidesToShow: 4,
