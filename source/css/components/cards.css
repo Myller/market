@@ -1,5 +1,4 @@
-/*===== CARD STYLE START ====*/
-/*==== Cards start ====*/
+/*===== CARDS COMPONENT START ====*/
 .card {
     border-radius: 0;
     border-color: #d9e0e3;
@@ -188,7 +187,7 @@
 /*===== aside-card end =====*/
 /*===== small-card ======*/
 .card.small-card {
-    max-width: 270px;
+    /*max-width: 270px;*/
 }
 
 .card.small-card .card-info {
@@ -287,7 +286,7 @@
 
 .card.row-card .card-comment i {
     position: absolute;
-    left: 0px;
+    left: 0;
     top: -2px;
     font-size: 16px;
     color: #8bc34a;
@@ -308,5 +307,42 @@
     color: #b0bec5;
 }
 
+@media (max-width: 767px) {
+    .card.row-card .card-comment {
+        margin-left: 13px;
+        padding-left: 40px;
+    }
+
+    .card.row-card .card-comment i {
+        margin-left: 13px;
+    }
+    .card.row-card .card-product-rating .list-inline-item {
+        margin-right: .05rem;
+    }
+    .card.row-card .card-sale {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .card.row-card {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card.row-card .card-img {
+        position: relative;
+    }
+
+    .card.row-card .card-img img {
+        width: 100%;
+        height: auto;
+    }
+    .card.row-card .card-comment {
+        display: none;
+    }
+}
+
 /*===== row-card end ====*/
-/*===== CARD STYLE END ====*/
+/*===== CARDS COMPONENT END ====*/

@@ -8,11 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
           integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!--Font-awersome-->
+    <!--Font-awesome-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <!--Reset CSS-->
     <link rel="stylesheet" href="../source/css/reset.css">
@@ -22,17 +21,17 @@
     <link rel="stylesheet" href="../source/css/components/text.components.css">
     <!-- Aside section CSS -->
     <link rel="stylesheet" href="../source/css/components/aside-section.css">
-    <!--<link rel="stylesheet" href="css/style.css">-->
-    <title>Market place</title>
 </head>
 <body>
 <!-- Main start -->
 <main id="main">
-    <section class="cards-example">
+    <section class="cards-example default-section bg-off-white">
+        <h1 class="title-default-section">Default card</h1>
         <div class="container-fluid">
             <!-- .card .large-card
             .card .medium-card
-            .card .row-card .medium-card -->
+            .card .row-card .medium-card
+            .card .small-card -->
             <div class="row">
                 <div class="col-3">
                     <span class="title  title-dark default-title">Large-card</span>
@@ -116,24 +115,21 @@
                     <!-- / card large-card -->
                 </div>
                 <!-- / col -->
-
-
-                <div class="col-4">
-                    <span class="title  title-dark default-title">Medium-card</span>
-                    <div class="card medium-card">
+                <div class="col-3">
+                    <span class="title  title-dark default-title">Large-card green-label</span>
+                    <div class="card large-card label-card">
                         <div class="card-img">
                             <a href="">
-                                <img src="img/medium-card.png" alt="">
+                                <img src="img/card-item-big.jpg" alt="">
                             </a>
                         </div>
                         <!-- / card-img -->
                         <div class="card-description bg-white">
                             <div class="card-info d-flex align-items-center">
                                 <div class="d-flex flex-column">
-                                    <a href="" class="card-title title default-text title-dark text-capitalize">Item
-                                        title</a>
+                                    <a href="" class="card-title title-dark text-capitalize">Item title</a>
                                     <a href=""
-                                       class="card-category title-green title default-text-small  text-capitalize">PSD
+                                       class="card-category title-green title default-text-small text-capitalize">PSD
                                         Template</a>
                                 </div>
                                 <span class="card-price ml-auto title title-bold title-dark">$19</span>
@@ -157,37 +153,57 @@
                         </div>
                         <!-- / card-description -->
                     </div>
-                    <!-- / card medium-card -->
+                    <!-- / card large-card -->
                 </div>
                 <!-- / col -->
-                <div class="col-4">
-                    <span class="title title-dark default-title">Small-card</span>
-                    <div class="card small-card d-flex flex-row">
-                        <div class="small-card-img">
-                            <img src="img/card-item-small.jpg" alt="">
+                <div class="col-3">
+                    <span class="title  title-dark default-title">Large-card green-label</span>
+                    <div class="card large-card label-card">
+                        <div class="card-img">
+                            <a href="">
+                                <img src="img/card-item-big.jpg" alt="">
+                            </a>
                         </div>
-                        <!-- / row-item-img -->
-                        <div class="small-card-content bg-white">
-                            <div class="card-info d-flex">
-                                <div class="card-title-info d-flex flex-column">
-                                    <a href="" class="card-title title default-text title-dark text-capitalize">Item
-                                        title</a>
+                        <!-- / card-img -->
+                        <div class="card-description bg-white">
+                            <div class="card-info d-flex align-items-center">
+                                <div class="d-flex flex-column">
+                                    <a href="" class="card-title title-dark text-capitalize">Item title</a>
                                     <a href=""
-                                       class="card-category title-green title default-text-small  text-capitalize">PSD
+                                       class="card-category title-green title default-text-small text-capitalize">PSD
                                         Template</a>
-                                    <span class="card-price  title title-bold title-dark">$19</span>
                                 </div>
+                                <span class="card-price ml-auto title title-bold title-dark">$19</span>
                             </div>
-                            <!-- card-info -->
+                            <!-- /card-info -->
+                            <div class="card-author d-flex align-items-center">
+                                <a href="" class=card-author-img>
+                                    <img src="img/card-author-img.png" alt="">
+                                    <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
+                                </a>
+                                <ul class="card-product-rating title-orange list-inline ml-auto">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="rating-count title-dark">05</span>
+                            </div>
+                            <!-- /card-author -->
                         </div>
-                        <!-- /small-card-content -->
+                        <!-- / card-description -->
                     </div>
-                    <!-- / card small-card -->
+                    <!-- / card large-card -->
                 </div>
                 <!-- / col -->
             </div>
-            <!--/row-->
+            <!--/ row-->
+        </div>
+        <!--/ container-fluid-->
 
+
+        <div class="container">
             <div class="row">
                 <div class="col-3 guide-show-aside">
                     <span class="title title-dark default-title">Aside-product-card</span>
@@ -306,84 +322,278 @@
                         </div>
                         <!-- / card aside-card -->
                     </aside>
+                    <!-- / aside section -->
                 </div>
-                <!-- / aside section -->
                 <!-- / col -->
-            </div>
-
-            <div class="col-4 col-12 grid-list">
-                <span class="title  title-dark default-title">Row-card</span>
-                <div class="card medium-card row-card">
-                    <div class="card-img">
-                        <a href="">
-                            <img src="img/medium-card.png" alt="">
-                        </a>
-                    </div>
-                    <!-- / card-img -->
-                    <div class="card-description bg-white">
-                        <div class="card-info d-flex align-items-center">
-                            <div class="d-flex flex-column">
-                                <a href=""
-                                   class="card-title title default-text title-dark text-capitalize">Item
-                                    title</a>
-                                <a href=""
-                                   class="card-category title-green title default-text-small  text-capitalize">PSD
-                                    Template</a>
+                <div class="col-9">
+                    <span class="title  title-dark default-title">Medium-card</span>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card medium-card">
+                                <div class="card-img">
+                                    <a href="">
+                                        <img src="img/medium-card.png" alt="">
+                                    </a>
+                                </div>
+                                <!-- / card-img -->
+                                <div class="card-description bg-white">
+                                    <div class="card-info d-flex align-items-center">
+                                        <div class="d-flex flex-column">
+                                            <a href="" class="card-title title default-text title-dark text-capitalize">Item
+                                                title</a>
+                                            <a href=""
+                                               class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                Template</a>
+                                        </div>
+                                        <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                                    </div>
+                                    <!-- /card-info -->
+                                    <div class="card-author d-flex align-items-center">
+                                        <a href="" class=card-author-img>
+                                            <img src="img/card-author-img.png" alt="">
+                                            <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
+                                        </a>
+                                        <ul class="card-product-rating title-orange list-inline ml-auto">
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        </ul>
+                                        <span class="rating-count title-dark">05</span>
+                                    </div>
+                                    <!-- /card-author -->
+                                </div>
+                                <!-- / card-description -->
                             </div>
-                            <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                            <!-- / card medium-card -->
                         </div>
-                        <!-- /card-info -->
-                        <div class="card-text-info justify-content-between">
-                            <p class="card-text title">Pimply dummy text of the printing and typesetting
-                                industry.</p>
-                            <span class="card-sale text-right">Sale (11)</span>
+                        <!-- / col -->
+                        <div class="col-4">
+                            <div class="card medium-card">
+                                <div class="card-img">
+                                    <a href="">
+                                        <img src="img/medium-card.png" alt="">
+                                    </a>
+                                </div>
+                                <!-- / card-img -->
+                                <div class="card-description bg-white">
+                                    <div class="card-info d-flex align-items-center">
+                                        <div class="d-flex flex-column">
+                                            <a href="" class="card-title title default-text title-dark text-capitalize">Item
+                                                title</a>
+                                            <a href=""
+                                               class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                Template</a>
+                                        </div>
+                                        <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                                    </div>
+                                    <!-- /card-info -->
+                                    <div class="card-author d-flex align-items-center">
+                                        <a href="" class=card-author-img>
+                                            <img src="img/card-author-img.png" alt="">
+                                            <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
+                                        </a>
+                                        <ul class="card-product-rating title-orange list-inline ml-auto">
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        </ul>
+                                        <span class="rating-count title-dark">05</span>
+                                    </div>
+                                    <!-- /card-author -->
+                                </div>
+                                <!-- / card-description -->
+                            </div>
+                            <!-- / card medium-card -->
                         </div>
-                        <!-- /card-text-info -->
-                        <div class="card-author d-flex align-items-center">
-                            <a href="" class=card-author-img>
-                                <img src="img/card-author-img.png" alt="">
-                                <span class="author-name title default-text-small title-blue text-capitalize">
+                        <!-- / col -->
+                        <div class="col-4">
+                            <div class="card medium-card">
+                                <div class="card-img">
+                                    <a href="">
+                                        <img src="img/medium-card.png" alt="">
+                                    </a>
+                                </div>
+                                <!-- / card-img -->
+                                <div class="card-description bg-white">
+                                    <div class="card-info d-flex align-items-center">
+                                        <div class="d-flex flex-column">
+                                            <a href="" class="card-title title default-text title-dark text-capitalize">Item
+                                                title</a>
+                                            <a href=""
+                                               class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                Template</a>
+                                        </div>
+                                        <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                                    </div>
+                                    <!-- /card-info -->
+                                    <div class="card-author d-flex align-items-center">
+                                        <a href="" class=card-author-img>
+                                            <img src="img/card-author-img.png" alt="">
+                                            <span class="author-name title default-text-small title-blue text-capitalize">Dmgame</span>
+                                        </a>
+                                        <ul class="card-product-rating title-orange list-inline ml-auto">
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        </ul>
+                                        <span class="rating-count title-dark">05</span>
+                                    </div>
+                                    <!-- /card-author -->
+                                </div>
+                                <!-- / card-description -->
+                            </div>
+                            <!-- / card medium-card -->
+                        </div>
+                        <!-- / col -->
+                    </div>
+                    <!--/ row-->
+
+                    <div class="col-4 col-12">
+                        <span class="title  title-dark default-title">Row-card</span>
+                        <div class="card medium-card row-card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img src="img/medium-card.png" alt="">
+                                </a>
+                            </div>
+                            <!-- / card-img -->
+                            <div class="card-description bg-white">
+                                <div class="card-info d-flex align-items-center">
+                                    <div class="d-flex flex-column">
+                                        <a href=""
+                                           class="card-title title default-text title-dark text-capitalize">Item
+                                            title</a>
+                                        <a href=""
+                                           class="card-category title-green title default-text-small  text-capitalize">PSD
+                                            Template</a>
+                                    </div>
+                                    <span class="card-price ml-auto title title-bold title-dark">$19</span>
+                                </div>
+                                <!-- /card-info -->
+                                <div class="card-text-info justify-content-between">
+                                    <p class="card-text title">Pimply dummy text of the printing and typesetting
+                                        industry.</p>
+                                    <span class="card-sale text-right">Sale (11)</span>
+                                </div>
+                                <!-- /card-text-info -->
+                                <div class="card-author d-flex align-items-center">
+                                    <a href="" class=card-author-img>
+                                        <img src="img/card-author-img.png" alt="">
+                                        <span class="author-name title default-text-small title-blue text-capitalize">
                                                     Dmgame
                                                 </span>
-                            </a>
-                            <ul class="card-product-rating d-flex title-orange list-inline ml-auto">
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span class="rating-count title-dark">05</span>
-                            <span class="card-comment title-dark">10<i class="fa fa-comment-o"></i></span>
-                            <span class="card-comment title-dark">20<i class="fa fa fa-heart-o"></i></span>
-                            <!-- / card-rating-info -->
+                                    </a>
+                                    <ul class="card-product-rating d-flex title-orange list-inline ml-auto">
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    </ul>
+                                    <span class="rating-count title-dark">05</span>
+                                    <span class="card-comment title-dark">10<i class="fa fa-comment-o"></i></span>
+                                    <span class="card-comment title-dark">20<i class="fa fa fa-heart-o"></i></span>
+                                    <!-- / card-rating-info -->
+                                </div>
+                                <!-- /card-author -->
+                            </div>
+                            <!-- / card-description -->
                         </div>
-                        <!-- /card-author -->
+                        <!--medium-card-->
                     </div>
-                    <!-- / card-description -->
+                    <!-- / col -->
+
+
+                    <span class="title title-dark default-title">Small-card</span>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card small-card d-flex flex-row">
+                                <div class="small-card-img">
+                                    <img src="img/card-item-small.jpg" alt="">
+                                </div>
+                                <!-- / row-item-img -->
+                                <div class="small-card-content bg-white">
+                                    <div class="card-info d-flex">
+                                        <div class="card-title-info d-flex flex-column">
+                                            <a href="" class="card-title title default-text title-dark text-capitalize">Item
+                                                title</a>
+                                            <a href=""
+                                               class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                Template</a>
+                                            <span class="card-price  title title-bold title-dark">$19</span>
+                                        </div>
+                                    </div>
+                                    <!-- card-info -->
+                                </div>
+                                <!-- /small-card-content -->
+                            </div>
+                            <!-- / card small-card -->
+                        </div>
+                        <!-- / col -->
+                        <div class="col-4">
+                            <div class="card small-card d-flex flex-row">
+                                <div class="small-card-img">
+                                    <img src="img/card-item-small.jpg" alt="">
+                                </div>
+                                <!-- / row-item-img -->
+                                <div class="small-card-content bg-white">
+                                    <div class="card-info d-flex">
+                                        <div class="card-title-info d-flex flex-column">
+                                            <a href="" class="card-title title default-text title-dark text-capitalize">Item
+                                                title</a>
+                                            <a href=""
+                                               class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                Template</a>
+                                            <span class="card-price  title title-bold title-dark">$19</span>
+                                        </div>
+                                    </div>
+                                    <!-- card-info -->
+                                </div>
+                                <!-- /small-card-content -->
+                            </div>
+                            <!-- / card small-card -->
+                        </div>
+                        <!-- / col -->
+                        <div class="col-4">
+                            <div class="card small-card d-flex flex-row">
+                                <div class="small-card-img">
+                                    <img src="img/card-item-small.jpg" alt="">
+                                </div>
+                                <!-- / row-item-img -->
+                                <div class="small-card-content bg-white">
+                                    <div class="card-info d-flex">
+                                        <div class="card-title-info d-flex flex-column">
+                                            <a href="" class="card-title title default-text title-dark text-capitalize">Item
+                                                title</a>
+                                            <a href=""
+                                               class="card-category title-green title default-text-small  text-capitalize">PSD
+                                                Template</a>
+                                            <span class="card-price  title title-bold title-dark">$19</span>
+                                        </div>
+                                    </div>
+                                    <!-- card-info -->
+                                </div>
+                                <!-- /small-card-content -->
+                            </div>
+                            <!-- / card small-card -->
+                        </div>
+                        <!-- / col -->
+                    </div>
+                    <!--/row-->
                 </div>
-                <!--medium-card-->
             </div>
-            <!-- / col -->
             <!-- / row -->
         </div>
-        <!-- / container-fluid -->
+        <!-- / container -->
     </section>
     <!-- / cards-example	 -->
 </main>
 <!-- Main end -->
-
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
 </body>
 </html>

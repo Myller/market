@@ -83,15 +83,15 @@
     padding-bottom: 110px;
 }
 
-.mobile-aside-toggle {
-    margin-right: 15px;
-}
-
 .all-products-wrapper .breadcrumb {
     margin-bottom: 0;
 }
 
-.all-products-wrapper #slider-range .btn-custom {
+.mobile-aside-toggle {
+    margin-right: 12px;
+}
+
+.all-products-wrapper .btn-custom {
     height: 46px;
 }
 
@@ -107,7 +107,7 @@
 .all-products-wrapper .sort-controls {
     border: 1px solid #dcdcdc;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px 15px;
     margin-bottom: 32px;
     color: #707070;
 }
@@ -138,7 +138,6 @@
     padding: 20px;
     min-width: 160px;
     font-size: 14px;
-    border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
@@ -158,12 +157,24 @@
     font-size: 16px;
 }
 
-.sort-controls .change-view-items > :active i {
-    color: #8bc34a;
-}
-
 .sort-controls .change-view-items.grid-list {
     margin-left: 12px;
+}
+
+@media (max-width: 320px) {
+    .all-products-wrapper .sort-controls {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .sort-controls .change-view-items.grid-list {
+        margin-left: 8px;
+    }
+
+    .all-products-wrapper .sort-controls .sorting-btn {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 /*===== all-items pagination start ======*/
