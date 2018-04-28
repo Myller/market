@@ -58,6 +58,12 @@
     border-bottom: 2px solid #8bc34a;
 }
 
+@media (max-width: 991px) {
+    #tabs .info li a {
+        padding: 9px 15px 8px 15px;
+    }
+}
+
 /*----Tabs end----*/
 
 .mobile-list-wrap{
@@ -100,8 +106,8 @@
         background-color: #fff;
         padding: 15px 30px;
     }
-    .mobile-list .dropdown-list li{
+    .mobile-list .dropdown-list a{
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
