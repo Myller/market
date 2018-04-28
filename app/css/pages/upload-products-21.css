@@ -1,0 +1,221 @@
+/*===== UPLOAD-PRODUCTS START =====*/
+.upload-products-wrapper .form-search {
+    padding: 60px 0 70px 0;
+}
+
+.form-content {
+    position: relative;
+    border: 1px solid #dcdcdc;
+}
+
+.form-content .form-content-title:first-child {
+    padding: 20px 33px;
+}
+
+.form-content .form-content-title:not(:first-child) {
+    padding: 0 33px;
+}
+
+.form-content .upload-wrapper {
+    padding: 42px 40px;
+    border-top: 1px solid #dcdcdc;
+}
+
+.form-content .form-group-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.form-content .form-group-item .upload-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    color: #444444;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.form-content .form-group-item .upload-user-select {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    width: 100%;
+}
+
+.upload-user-select input,
+.upload-user-select textarea {
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    padding: 10px 20px;
+    color: #707070;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-control:focus {
+    border: 2px solid #8bc34a;
+}
+
+.upload-user-select input:focus,
+.upload-user-select textarea:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.upload-products-wrapper .btn-custom {
+    width: 125px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+.upload-products-wrapper .btn-custom:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.jq-selectbox {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.jq-selectbox__select {
+    width: 100%;
+    padding: 0;
+    height: 40px;
+    border-radius: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #dcdcdc;
+    color: #707070;
+    font-size: 15px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.jq-selectbox.focused .jq-selectbox__select,
+.jq-selectbox.focused .jq-selectbox__select-text{
+    border: 1px solid #8bc34a;
+    background-color: #fff;
+}
+
+.jq-selectbox__select-text {
+    background-color: #f9f9f9;
+    height: 100%;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.jq-selectbox li.selected {
+    background-color: #8bc34a;
+}
+
+.jq-selectbox li:hover {
+    background-color: #8bc34a;
+}
+.jq-selectbox__trigger {
+   border: none;
+}
+.jq-selectbox__trigger-arrow {
+    top: 16px;
+}
+
+.upload-user-select textarea {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+
+.upload-user-select input[type='file'] {
+    opacity: 0;
+    z-index: -1;
+}
+
+.upload-user-select .choose-file {
+    display: inline-block;
+    width: 90px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    color: #444444;
+    line-height: 25px;
+    margin-right: 15px;
+    text-align: center;
+}
+.upload-user-select .uploadButton {
+    display: block;
+    position: absolute;
+    border: 1px solid #dcdcdc;
+    border-radius: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 40px;
+    padding: 6px 20px;
+    color: #707070;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.upload-user-select .uploadButton:hover {
+    background-color: #fff;
+    border: 2px solid #8bc34a;
+}
+
+@media (max-width:991px) {
+    .upload-products-wrapper {
+        padding-bottom: 90px;
+    }
+
+    .form-content .form-group-item .upload-text {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    }
+    .form-content .form-group-item .upload-user-select {
+        -webkit-box-flex: 4;
+            -ms-flex: 4;
+                flex: 4;
+    }
+}
+
+@media (max-width:767px) {
+    .upload-products-wrapper {
+        padding-bottom: 70px;
+    }
+
+    .form-content .form-group-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+@media (max-width:565px) {
+    .upload-products-wrapper {
+        padding-bottom: 60px;
+    }
+    .upload-products-wrapper .btn-custom {
+        width: 100%;
+    }
+}
+/*===== UPLOAD-PRODUCTS END =====*/
+
+

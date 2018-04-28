@@ -11,7 +11,7 @@
 }
 
 /*===== inner-all-items start ====== */
-.inner-all-items {
+.inner-small {
     background: url('../../../app/img/fon-inner.png') no-repeat center/cover;
     width: 100%;
     min-height: 229px;
@@ -19,17 +19,17 @@
     padding-right: 20px;
 }
 
-.inner-all-items-content {
+.inner-small-content {
     padding: 60px 20px;
 }
 
-.inner-all-items h1.title {
+.inner-small h1.title {
     margin-bottom: 23px;
     font-size: 20px;
     text-align: center;
 }
 
-.inner-all-items form[name="inner-search"] {
+.inner-small form[name="inner-search"] {
     position: relative;
     max-width: 670px;
     margin-left: auto;
@@ -37,29 +37,29 @@
     margin-top: 20px;
 }
 
-.inner-all-items .form-control-search::-webkit-input-placeholder {
+.inner-small .form-control-search::-webkit-input-placeholder {
     color: #90a4ae;
 }
 
-.inner-all-items .form-control-search::-moz-placeholder {
+.inner-small .form-control-search::-moz-placeholder {
     color: #90a4ae;
 }
 
 /* Firefox 19+ */
-.inner-all-items .form-control-search:-moz-placeholder {
+.inner-small .form-control-search:-moz-placeholder {
     color: #90a4ae;
 }
 
 /* Firefox 18- */
-.inner-all-items .form-control-search:-ms-input-placeholder {
+.inner-small .form-control-search:-ms-input-placeholder {
     color: #90a4ae;
 }
 
-.inner-all-items .inner-icon i {
+.inner-small .inner-icon i {
     color: #90a4ae;
 }
 
-.inner-all-items .form-control-search {
+.inner-small .form-control-search {
     position: relative;
     background-color: #fff;
     height: 58px;
@@ -74,7 +74,7 @@
     -1px -1px 5px rgba(143, 143, 143, 0.75);
 }
 
-.inner-all-items .form-control-search:focus {
+.inner-small .form-control-search:focus {
     -webkit-box-shadow: 1px 1px 5px rgba(124, 178, 64, .75),
     -1px -1px 5px rgba(124, 178, 64, .75);
             box-shadow: 1px 1px 5px rgba(124, 178, 64, .75),
@@ -83,10 +83,6 @@
 
 /*===== inner-all-items end ====== */
 /*===== all-products-wrapper start =====*/
-.all-products-wrapper {
-    padding-bottom: 110px;
-}
-
 .all-products-wrapper .breadcrumb {
     margin-bottom: 0;
 }
