@@ -1,82 +1,1 @@
-/*----header-top---*/
-.top-header{
-    background-color: #fff;
-    padding: 26px 0;
-}
-.top-header .order-1 .help-text{
-    color: #546e7a;
-    margin-right: 38px;
-}
-.top-header .order-1 .help-text span{
-    color: #e74c3c;
-}
-.top-header .order-1 button{
-    margin-right: 7px;
-}
-.top-header .order-1 button:hover{
-   -webkit-box-shadow: 1px 1px 1px #bcbcbc;
-           box-shadow: 1px 1px 1px #bcbcbc;
-}
-.top-header .order-1 .btn-green{
-    background-color: #8bc34a;
-}
-.top-header .order-1 .btn-red{
-    background-color: #e74c3c;
-}
-
-/*----header-top-end----*/
-
-/*----header-bottom----*/
-.header-bottom{
-    background-color: #263238;
-}
-.header-bottom .header-nav{
-    padding: 24px 0;
-}
-.header-bottom .header-nav a{
-    display: inline-block;
-    margin-right: 33px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-@media (max-width: 991px) {
-    .top-header .order-1 .help-text{
-        margin-right: auto;
-    }
-    .header-bottom .header-nav a{
-        display: block;
-        text-align: center;
-        margin-right: 0;
-    }
-    .header-bottom .header-nav a + a{
-        margin-bottom: 10px;
-    }
-    .top-header .header-controls{
-        width: 100%;
-        margin-top: 20px;
-    }
-}
-@media (max-width: 576px){
-
-    .top-header .order-1 {
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-    }
-
-    .top-header .order-1 button{
-        margin-top: 10px;
-        width: 100%;
-    }
-    .top-header .order-1 ul{
-        margin-top: 10px;
-    }
-}
-/*----header-bottom-end----*/
+/*----header-top---*/.top-header{    background-color: #fff;    padding: 26px 0;}.top-header .order-1 .help-text{    color: #546e7a;    margin-right: 38px;}.top-header .order-1 .help-text span{    color: #e74c3c;}.top-header .order-1 button{    margin-right: 7px;}.top-header .order-1 button:hover{   -webkit-box-shadow: 1px 1px 1px #bcbcbc;   box-shadow: 1px 1px 1px #bcbcbc;}.top-header .order-1 .btn-green{    background-color: #8bc34a;}.top-header .order-1 .btn-red{    background-color: #e74c3c;}/*----header-top-end----*//*----header-bottom----*/.header-bottom{    background-color: #263238;}.header-bottom .header-nav{    padding: 24px 0;}.header-bottom .header-nav a{    display: inline-block;    margin-right: 33px;    color: #fff;    font-size: 14px;    font-weight: 400;    line-height: 30px;}@media (max-width: 991px) {    .top-header .order-1 .help-text{        margin-right: auto;    }    .header-bottom .header-nav a{        display: block;        text-align: center;        margin-right: 0;    }    .header-bottom .header-nav a + a{        margin-bottom: 10px;    }    .top-header .header-controls{        width: 100%;        margin-top: 20px;    }}@media (max-width: 576px){    .top-header .order-1 {        -webkit-box-align: center;        -ms-flex-align: center;        align-items: center;        -webkit-box-orient: vertical;        -webkit-box-direction: normal;        -ms-flex-direction: column;        flex-direction: column;    }    .top-header .order-1 button{        margin-top: 10px;        width: 100%;    }    .top-header .order-1 ul{        margin-top: 10px;    }}/*----header-bottom-end----*/
