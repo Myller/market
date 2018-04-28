@@ -5,8 +5,31 @@ $( function() {
 $('.trending-carousel').slick({
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 2,
-    dots: true
+    slidesToScroll: 4,
+    dots: true,
+    responsive: [
+        {
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 3,
+                slideToScroll: 3
+            }
+        },
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 2,
+                slideToScroll: 2
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slideToScroll: 1
+            }
+        }
+    ]
 });
 
 // Switch product items view

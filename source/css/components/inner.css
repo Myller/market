@@ -1,9 +1,10 @@
 .inner{
-    background: url('../../img/fon-inner.png') no-repeat center/cover;
+    background: url('../img/fon-inner.png') no-repeat center/cover;
     height: 100vh;
 }
 .inner-content{
     color: #fff;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 .inner-content .inner-title {
@@ -21,10 +22,12 @@
     height: 100vh;
 }
 .inner .inner-search{
+    width: 90%;
+    max-width: 670px;
     position: relative;
 }
 .inner-search input{
-    width: 670px;
+    width: 100%;
     padding: 23px 26px;
     border-radius: 3px;
 }
