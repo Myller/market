@@ -9,8 +9,15 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Formstayler style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.theme.css">
+
+    <!-- Slick-nav -->
+    <link rel="stylesheet" href="css/slicknav.css">
+
     <!-- Slick style -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
@@ -52,197 +59,197 @@
 <body class="bg-off-white">
 <!--HEADER-->
 
-<div class="top-header">
-    <div class="container d-flex align-items-center">
-        <div class="logo mr-auto">
-            <a href="#"><img src="img/logo.png" alt=""></a>
-        </div>
-        <!-- /.logo -->
-        <p class="help-text"><span>Need help?</span> Talk to an expert: +61 3 8376 6284</p>
-        <!-- /.help-text -->
-        <ul class="header-dropdown d-flex align-items-center">
-            <li class="dropdown bell">
-                <a class="header-dropdown-list bell-item" href="#" role="button" id="bell" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-bell-o"></i>
-                </a>
-                <div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="bell">
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <span class="category">Need WP Help!</span>
-                            <span class="data">01 Dec, 2016</span>
-                        </div>
-                        <i class="fa fa-bell-o"></i>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <span class="category">Need WP Help!</span>
-                            <span class="data">01 Dec, 2016</span>
-                        </div>
-                        <i class="fa fa-bell-o"></i>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <span class="category">Need WP Help!</span>
-                            <span class="data">01 Dec, 2016</span>
-                        </div>
-                        <i class="fa fa-bell-o"></i>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                </div>
-                <!--/.dropdown-menu-->
-            </li>
-            <!--/.dropdown-->
-            <li class="dropdown envelope">
-                <a class="header-dropdown-list envelope-item" href="#" role="button" id="envelope"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-envelope-o"></i>
-                </a>
-                <div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="envelope">
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <h6 class="title">Kazi Fahim</h6>
-                            <span class="category">Need WP Help!</span>
-                            <span class="data">01 Dec, 2016</span>
-                        </div>
-                        <i class="fa fa-envelope-o"></i>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <h6 class="title">Kazi Fahim</h6>
-                            <span class="category">Need WP Help!</span>
-                            <span class="data">01 Dec, 2016</span>
-                        </div>
-                        <i class="fa fa-envelope-o"></i>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <h6 class="title">Kazi Fahim</h6>
-                            <span class="category">Need WP Help!</span>
-                            <span class="data">01 Dec, 2016</span>
-                        </div>
-                        <i class="fa fa-reply"></i>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                </div>
-                <!--/.dropdown-menu-->
-            </li>
-            <!--/.dropdown-->
-            <li class="dropdown cart">
-                <a class="header-dropdown-list cart-item" href="#" role="button" id="cart" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-shopping-cart"></i>
-                </a>
-                <div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="cart">
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown-sq.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <h6 class="title">Apple Device</h6>
-                            <span class="category">WordPress</span>
-                            <span class="price">59$</span>
-                        </div>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown-sq.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <h6 class="title">Apple Device</h6>
-                            <span class="category">WordPress</span>
-                            <span class="price">59$</span>
-                        </div>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                    <div class="dropdown-menu-items d-flex align-items-center justify-content-between">
-                        <a class="dropdown-item" href="#"><img src="img/img-dropdown-sq.png" alt=""></a>
-                        <div class="items-content d-flex flex-column">
-                            <h6 class="title">Apple Device</h6>
-                            <span class="category">WordPress</span>
-                            <span class="price">59$</span>
-                        </div>
-                    </div>
-                    <!--/dropdown-menu-items-->
-                    <div class="dropdown-menu-items">
-                        <div class="items-content d-flex justify-content-between">
-                            <span class="total">Total</span>
-                            <span class="price ">118$</span>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <button>
-                                <a href="#" class="btn btn-sm btn-light-green btn-bold title-off-white">Go to Cart</a>
-                            </button>
-                            <a href="#" class="btn btn-less btn-red btn-bold title-off-white">Go to Checkout</a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.dropdown-menu-->
-            </li>
-            <!--/.dropdown-->
-        </ul>
-        <!-- /.header-dropdown-list -->
+<!--<div class="top-header">-->
+    <!--<div class="container d-flex align-items-center">-->
+        <!--<div class="logo mr-auto">-->
+            <!--<a href="#"><img src="img/logo.png" alt=""></a>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.logo &ndash;&gt;-->
+        <!--<p class="help-text"><span>Need help?</span> Talk to an expert: +61 3 8376 6284</p>-->
+        <!--&lt;!&ndash; /.help-text &ndash;&gt;-->
+        <!--<ul class="header-dropdown d-flex align-items-center">-->
+            <!--<li class="dropdown bell">-->
+                <!--<a class="header-dropdown-list bell-item" href="#" role="button" id="bell" data-toggle="dropdown"-->
+                   <!--aria-haspopup="true" aria-expanded="false">-->
+                    <!--<i class="fa fa-bell-o"></i>-->
+                <!--</a>-->
+                <!--<div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="bell">-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<span class="category">Need WP Help!</span>-->
+                            <!--<span class="data">01 Dec, 2016</span>-->
+                        <!--</div>-->
+                        <!--<i class="fa fa-bell-o"></i>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<span class="category">Need WP Help!</span>-->
+                            <!--<span class="data">01 Dec, 2016</span>-->
+                        <!--</div>-->
+                        <!--<i class="fa fa-bell-o"></i>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<span class="category">Need WP Help!</span>-->
+                            <!--<span class="data">01 Dec, 2016</span>-->
+                        <!--</div>-->
+                        <!--<i class="fa fa-bell-o"></i>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                <!--</div>-->
+                <!--&lt;!&ndash;/.dropdown-menu&ndash;&gt;-->
+            <!--</li>-->
+            <!--&lt;!&ndash;/.dropdown&ndash;&gt;-->
+            <!--<li class="dropdown envelope">-->
+                <!--<a class="header-dropdown-list envelope-item" href="#" role="button" id="envelope"-->
+                   <!--data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                    <!--<i class="fa fa-envelope-o"></i>-->
+                <!--</a>-->
+                <!--<div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="envelope">-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<h6 class="title">Kazi Fahim</h6>-->
+                            <!--<span class="category">Need WP Help!</span>-->
+                            <!--<span class="data">01 Dec, 2016</span>-->
+                        <!--</div>-->
+                        <!--<i class="fa fa-envelope-o"></i>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<h6 class="title">Kazi Fahim</h6>-->
+                            <!--<span class="category">Need WP Help!</span>-->
+                            <!--<span class="data">01 Dec, 2016</span>-->
+                        <!--</div>-->
+                        <!--<i class="fa fa-envelope-o"></i>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<h6 class="title">Kazi Fahim</h6>-->
+                            <!--<span class="category">Need WP Help!</span>-->
+                            <!--<span class="data">01 Dec, 2016</span>-->
+                        <!--</div>-->
+                        <!--<i class="fa fa-reply"></i>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                <!--</div>-->
+                <!--&lt;!&ndash;/.dropdown-menu&ndash;&gt;-->
+            <!--</li>-->
+            <!--&lt;!&ndash;/.dropdown&ndash;&gt;-->
+            <!--<li class="dropdown cart">-->
+                <!--<a class="header-dropdown-list cart-item" href="#" role="button" id="cart" data-toggle="dropdown"-->
+                   <!--aria-haspopup="true" aria-expanded="false">-->
+                    <!--<i class="fa fa-shopping-cart"></i>-->
+                <!--</a>-->
+                <!--<div class="dropdown-menu dropdown-notification dropdown-menu-right" aria-labelledby="cart">-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown-sq.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<h6 class="title">Apple Device</h6>-->
+                            <!--<span class="category">WordPress</span>-->
+                            <!--<span class="price">59$</span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown-sq.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<h6 class="title">Apple Device</h6>-->
+                            <!--<span class="category">WordPress</span>-->
+                            <!--<span class="price">59$</span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                    <!--<div class="dropdown-menu-items d-flex align-items-center justify-content-between">-->
+                        <!--<a class="dropdown-item" href="#"><img src="img/img-dropdown-sq.png" alt=""></a>-->
+                        <!--<div class="items-content d-flex flex-column">-->
+                            <!--<h6 class="title">Apple Device</h6>-->
+                            <!--<span class="category">WordPress</span>-->
+                            <!--<span class="price">59$</span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash;/dropdown-menu-items&ndash;&gt;-->
+                    <!--<div class="dropdown-menu-items">-->
+                        <!--<div class="items-content d-flex justify-content-between">-->
+                            <!--<span class="total">Total</span>-->
+                            <!--<span class="price ">118$</span>-->
+                        <!--</div>-->
+                        <!--<div class="d-flex justify-content-between">-->
+                            <!--<button>-->
+                                <!--<a href="#" class="btn btn-sm btn-light-green btn-bold title-off-white">Go to Cart</a>-->
+                            <!--</button>-->
+                            <!--<a href="#" class="btn btn-less btn-red btn-bold title-off-white">Go to Checkout</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;/.dropdown-menu&ndash;&gt;-->
+            <!--</li>-->
+            <!--&lt;!&ndash;/.dropdown&ndash;&gt;-->
+        <!--</ul>-->
+        <!--&lt;!&ndash; /.header-dropdown-list &ndash;&gt;-->
 
-        <!--head-user-->
-        <div class="head-user d-flex">
-            <div class="head-user-photo">
-                <img src="img/photo-user.png" alt="">
-            </div>
-            <div class="head-user-item d-flex flex-column ">
-                <div class="user-name">Mike Hussy
-                    <a class="head-user-chevron" href="#" role="button" id="user" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-chevron-down"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Profile Page</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Portfolio</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Account Setting</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Downloads</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Wishlist</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Upload Item</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Statement</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Statement</a>
-                    </div>
-                </div>
-                <!--/.name-->
-                <div class="price">$171.00</div>
-            </div>
-            <!--/.head-user-item-->
-        </div>
-        <!-- /.head-user -->
-        <button>
-            <a href="#" class="btn-custom btn-sm btn-red btn-round">Logout</a>
-        </button>
-        <!--/.button-->
-    </div>
-    <!-- /.container -->
-</div>
-<!--/.top-header-->
-<div class="bottom-header">
-    <div class="header-nav d-flex align-items-center">
-        <div class="container">
-            <a href="#">Home</a>
-            <a href="#">About </a>
-            <a href="#">WordPress</a>
-            <a href="#">Joomla</a>
-            <a href="#">PSD</a>
-            <a href="#">Plugins</a>
-            <a href="#">Components</a>
-            <a href="#">Pages</a>
-            <a href="#">Contact</a>
-            <a href="#">Help</a>
-        </div>
-        <!--/container-->
-    </div>
-</div>
+        <!--&lt;!&ndash;head-user&ndash;&gt;-->
+        <!--<div class="head-user d-flex">-->
+            <!--<div class="head-user-photo">-->
+                <!--<img src="img/photo-user.png" alt="">-->
+            <!--</div>-->
+            <!--<div class="head-user-item d-flex flex-column ">-->
+                <!--<div class="user-name">Mike Hussy-->
+                    <!--<a class="head-user-chevron" href="#" role="button" id="user" data-toggle="dropdown"-->
+                       <!--aria-haspopup="true" aria-expanded="false">-->
+                        <!--<i class="fa fa-chevron-down"></i>-->
+                    <!--</a>-->
+                    <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Profile Page</a>-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Portfolio</a>-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Account Setting</a>-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Downloads</a>-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Wishlist</a>-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Upload Item</a>-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Statement</a>-->
+                        <!--<a class="dropdown-item" href="#"><i class="fa fa-chevron-right"></i> Statement</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;/.name&ndash;&gt;-->
+                <!--<div class="price">$171.00</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;/.head-user-item&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.head-user &ndash;&gt;-->
+        <!--<button>-->
+            <!--<a href="#" class="btn-custom btn-sm btn-red btn-round">Logout</a>-->
+        <!--</button>-->
+        <!--&lt;!&ndash;/.button&ndash;&gt;-->
+    <!--</div>-->
+    <!--&lt;!&ndash; /.container &ndash;&gt;-->
+<!--</div>-->
+<!--&lt;!&ndash;/.top-header&ndash;&gt;-->
+<!--<div class="bottom-header">-->
+    <!--<div class="header-nav d-flex align-items-center">-->
+        <!--<div class="container">-->
+            <!--<a href="#">Home</a>-->
+            <!--<a href="#">About </a>-->
+            <!--<a href="#">WordPress</a>-->
+            <!--<a href="#">Joomla</a>-->
+            <!--<a href="#">PSD</a>-->
+            <!--<a href="#">Plugins</a>-->
+            <!--<a href="#">Components</a>-->
+            <!--<a href="#">Pages</a>-->
+            <!--<a href="#">Contact</a>-->
+            <!--<a href="#">Help</a>-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/container&ndash;&gt;-->
+    <!--</div>-->
+<!--</div>-->
 <!--/bottom-header-->
 <!--</header>-->
 
@@ -250,23 +257,10 @@
 
 <!-- MAIN-START -->
 <main id="main">
-    <!--<section class="inner-all-items d-flex m-auto">-->
-    <!--<div class="container">-->
-    <!--<div class="inner-content d-flex flex-column m-auto align-items-center">-->
-    <!--<h1 class="title title-medium title-white">Premium WordPress Themes, Web Templates and Many More ...</h1>-->
-    <!--<form action="" method="post" class="inner-search  align-items-center">-->
-    <!--<input type="text" name="Search Your Keywords . . ." class="form-control-search"-->
-    <!--placeholder="Search Your Keywords . . .">-->
-    <!--<button class="inner-icon"><i class="fa fa-search"></i></button>-->
-    <!--</form>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</section>-->
-    <!--/ inner-->
-    <!--==================================-->
-    <div class="inner-all-items">
-        <div class="inner-all-items-content">
-            <div class="inner-all-items-body">
+    <!--Inner start-->
+    <div class="inner-small">
+        <div class="inner-small-content">
+            <div class="inner-small-body">
                 <h1 class="title title-medium title-white">Premium WordPress Themes, Web Templates and Many More
                     ...</h1>
                 <form name="inner-search">
@@ -276,15 +270,15 @@
                         <button class="inner-icon"><i class="fa fa-search"></i></button>
                     </div>
                 </form>
-                <!-- / login-form -->
+                <!-- / inner-search -->
             </div>
-            <!-- / modal-body -->
+            <!-- / inner-small-body -->
         </div>
-        <!-- / modal-content -->
+        <!-- / inner-small-content -->
     </div>
-    <!-- / modal-dialog -->
-    <!--===============================-->
-    <section class="all-products-wrapper">
+    <!-- / inner-small -->
+    <!--/Inner end -->
+    <section class="all-products-wrapper default-section">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-off-white">
@@ -325,7 +319,7 @@
                     <aside class="aside-section d-flex flex-column">
                         <span class="aside-title title title-bold title-dark text-capitalize">Price Range</span>
                         <div id="slider-range" class="price-range"></div>
-                        <a href="#" class="btn-custom btn-green btn-block title-white"> <i class="fa fa-search"></i>
+                        <a href="#" class="btn-custom btn-green btn-block"> <i class="fa fa-search"></i>
                             Search</a>
                         <!--/ btn-->
                     </aside>
@@ -478,8 +472,8 @@
                     </div>
                     <div class="all-items-container">
                         <div class="row">
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -533,8 +527,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -588,8 +582,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -643,11 +637,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                        </div>
-                        <!--/row-->
-                        <div class="row">
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -701,8 +692,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -756,8 +747,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -811,11 +802,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                        </div>
-                        <!--/row-->
-                        <div class="row">
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -869,8 +857,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -924,8 +912,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -979,11 +967,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                        </div>
-                        <!--/row-->
-                        <div class="row">
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -1037,8 +1022,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -1092,8 +1077,8 @@
                                 <!--medium-card-->
                             </div>
                             <!-- / col -->
-                            <div class="col-4 col-12">
-                                <div class="card medium-card row-card">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                <div class="card medium-card">
                                     <div class="card-img">
                                         <a href="">
                                             <img src="img/medium-card.png" alt="">
@@ -1173,122 +1158,120 @@
 <!-- MAIN-END -->
 
 <!-- FOOTER-START -->
-<footer class="footer">
-    <div class="container d-flex">
-        <div class="col-3 ">
-            <div class="footer-items  flex-column">
-                <div class="footer-title">About Company</div>
-                <p class="footer-text">
-                    Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna
-                    iat.Praesent vel rutrum purus.
-                </p>
-                <div class="footer-contacts d-flex flex-column">
-                    <div class="footer-contacts-items d-flex  flex-row">
-                        <i class="fa fa-map-marker"></i>
-                        <span>PO Box 16122 Collins Street West Victoria 8007 Australia</span>
-                    </div>
-                    <div class="footer-contacts-items d-flex  flex-row">
-                        <i class="fa fa-phone"></i> <span>+61 3 8376 6284</span>
-                    </div>
-                </div>
-                <!--/.footer-contact-->
-            </div>
-            <!--/.footer-items-->
-        </div>
-        <!--/.col-3-->
-        <div class="col-3">
-            <div class="footer-items  flex-column">
-                <div class="footer-title">Join Our Community</div>
-                <nav class="footer-nav d-flex flex-column text-footer">
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Home
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Forums
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Become an Author
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Community Meetups
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Become an Affiliante
-                    </a>
-                </nav>
-                <!-- /.footer-nav1 -->
-            </div>
-            <!--/.footer-items-->
-        </div>
-        <!--/.col-3-->
-        <div class="col-3">
-            <div class="footer-items  flex-column">
-                <div class="footer-title">Need Help?</div>
-                <nav class="footer-nav d-flex flex-column text-footer">
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Help Center
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Market Terms
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Author Terms
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Licenses
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us
-                    </a>
-                </nav>
-                <!-- /.footer-nav1 -->
-            </div>
-            <!--/.footer-items-->
-        </div>
-        <!--/.col-3-->
-        <div class="col-3">
-            <div class="footer-items  flex-column">
-                <div class="footer-title">Newsletter Sign Up!</div>
-                <p class="footer-title-search">Newsletter Sign Up!</p>
-                <form action="" method="post" class="footer-search  align-items-center">
-                    <input type="search" id="search" placeholder="E-mail Address"/>
-                    <button class="icon"><i class="fa fa-location-arrow"></i></button>
-                </form>
-                <!-- /.footer-search -->
-            </div>
-            <!--/.footer-items-->
-        </div>
-        <!--/.col-3-->
-    </div>
-    <!-- /.container -->
-</footer>
-<!--/.footer-->
-<div class="footer-subscribe">
-    <div class="container">
-            <span class="d-flex  align-items-center justify-content-center"> <i class="fa fa-copyright "></i>
-                2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
-            </span>
-    </div>
-</div>
+<!--<footer class="footer">-->
+    <!--<div class="container d-flex">-->
+        <!--<div class="col-3 ">-->
+            <!--<div class="footer-items  flex-column">-->
+                <!--<div class="footer-title">About Company</div>-->
+                <!--<p class="footer-text">-->
+                    <!--Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna-->
+                    <!--iat.Praesent vel rutrum purus.-->
+                <!--</p>-->
+                <!--<div class="footer-contacts d-flex flex-column">-->
+                    <!--<div class="footer-contacts-items d-flex  flex-row">-->
+                        <!--<i class="fa fa-map-marker"></i>-->
+                        <!--<span>PO Box 16122 Collins Street West Victoria 8007 Australia</span>-->
+                    <!--</div>-->
+                    <!--<div class="footer-contacts-items d-flex  flex-row">-->
+                        <!--<i class="fa fa-phone"></i> <span>+61 3 8376 6284</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;/.footer-contact&ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash;/.footer-items&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/.col-3&ndash;&gt;-->
+        <!--<div class="col-3">-->
+            <!--<div class="footer-items  flex-column">-->
+                <!--<div class="footer-title">Join Our Community</div>-->
+                <!--<nav class="footer-nav d-flex flex-column text-footer">-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Home-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Forums-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Become an Author-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Community Meetups-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Become an Affiliante-->
+                    <!--</a>-->
+                <!--</nav>-->
+                <!--&lt;!&ndash; /.footer-nav1 &ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash;/.footer-items&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/.col-3&ndash;&gt;-->
+        <!--<div class="col-3">-->
+            <!--<div class="footer-items  flex-column">-->
+                <!--<div class="footer-title">Need Help?</div>-->
+                <!--<nav class="footer-nav d-flex flex-column text-footer">-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Help Center-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Market Terms-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Author Terms-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Licenses-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<i class="fa fa-angle-right" aria-hidden="true"></i>Contact Us-->
+                    <!--</a>-->
+                <!--</nav>-->
+                <!--&lt;!&ndash; /.footer-nav1 &ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash;/.footer-items&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/.col-3&ndash;&gt;-->
+        <!--<div class="col-3">-->
+            <!--<div class="footer-items  flex-column">-->
+                <!--<div class="footer-title">Newsletter Sign Up!</div>-->
+                <!--<p class="footer-title-search">Newsletter Sign Up!</p>-->
+                <!--<form action="" method="post" class="footer-search  align-items-center">-->
+                    <!--<input type="search" id="search" placeholder="E-mail Address"/>-->
+                    <!--<button class="icon"><i class="fa fa-location-arrow"></i></button>-->
+                <!--</form>-->
+                <!--&lt;!&ndash; /.footer-search &ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash;/.footer-items&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash;/.col-3&ndash;&gt;-->
+    <!--</div>-->
+    <!--&lt;!&ndash; /.container &ndash;&gt;-->
+<!--</footer>-->
+<!--&lt;!&ndash;/.footer&ndash;&gt;-->
+<!--<div class="footer-subscribe">-->
+    <!--<div class="container">-->
+            <!--<span class="d-flex  align-items-center justify-content-center"> <i class="fa fa-copyright "></i>-->
+                <!--2017 Foxtar market place. Trademarks and brands are the property of their respective owners.-->
+            <!--</span>-->
+    <!--</div>-->
+<!--</div>-->
 <!--/.footer-subscribe-->
 <!-- FOOTER-END -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.2/dist/jquery.formstyler.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="js/range.js"></script>
 <script src="js/aside.js"></script>
+    <!-- Slick-nav -->
+    <script src="js/jquery.slicknav.min.js"></script>
+
 <!-- Init plugins -->
 <script src="js/init.js"></script>
 </body>

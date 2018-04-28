@@ -1,7 +1,7 @@
 /* === aside section start === */
 .aside-section {
     border-radius: 0;
-    padding: 10px 30px 30px 30px;
+    padding: 23px 30px 30px;
     border: 1px solid #dedede;
     background-color: #fff;
 }
@@ -95,6 +95,10 @@
 }
 
 /* === aside section end === */
+.default-section {
+    padding: 0 0 110px;
+}
+
 /*1170+30=1200*/
 .container {
     max-width: 1200px;
