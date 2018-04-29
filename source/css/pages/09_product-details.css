@@ -28,6 +28,10 @@
     margin-left: 17px;
 }
 
+.product-details-content .social-panel .social-icons li + li {
+    margin-left: 3px;
+}
+
 .product-details .tabs-section {
     background-color: #fff;
     border: 1px solid #d7d7d7;
@@ -56,15 +60,17 @@
 
 .tab-list .aside-section-list li {
     display: inline-block;
-    width: 40%;
 }
+
 .nav-tabs a:hover {
     color: #70838d;
 }
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #263238;
     border-bottom: 3px solid #8bc34a;
 }
+
 .more-product-wrap {
     margin-bottom: 120px;
 }
@@ -84,18 +90,28 @@
     margin-bottom: 30px;
 }
 
-.product-details .dropdown-price {
-    padding: 0 10px;
-    line-height: 2.2;
-    border: 1px solid #d6d6d6;
-    color: #70838d;
-    font-size: 13px;
-}
-
 .product-price {
     color: #e74c3c;
     font-size: 22px;
     margin-bottom: 35px;
+}
+
+.product-price .dropdown-menu.show{
+    margin-top: 0;
+    width: 90px;
+}
+.product-price .regular.dropdown-toggle{
+    border: 1px solid #dedede;
+}
+.product-price .regular.dropdown-toggle,
+.product-price .dropdown-menu .dropdown-item{
+    font-size: 13px;
+    padding: 8px 9px;
+    background-color: #fff;
+}
+.product-price .regular.dropdown-toggle span{
+    padding-left: 7px;
+    color: #8bc34a;
 }
 
 
