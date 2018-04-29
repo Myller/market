@@ -42,7 +42,6 @@ $('.grid-thumbs').on('click', function() {
     $('.all-items-container .col-lg-4').removeClass('col-lg-12');
     $('.all-items-container .col-md-6').removeClass('col-md-12');
     $('.all-items-container .col-sm-6').removeClass('col-sm-12');
-    $('.all-items-container .col-xs-12').removeClass('col-xs-12');
 
 });
 
@@ -52,5 +51,4 @@ $('.grid-list').on('click', function(){
     $('.all-items-container .col-lg-4').addClass('col-lg-12');
     $('.all-items-container .col-md-6').addClass('col-md-12');
     $('.all-items-container .col-sm-6').addClass('col-sm-12');
-    $('.all-items-container .col-xs-12').addClass('col-xs-12');
 });
