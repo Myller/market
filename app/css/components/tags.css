@@ -106,8 +106,8 @@
         background-color: #fff;
         padding: 15px 30px;
     }
-    .mobile-list .dropdown-list a{
-        margin-bottom: 10px;
+    .dropdown-list ul li {
+        margin-bottom: 12px;
         font-size: 12px;
     }
 }
