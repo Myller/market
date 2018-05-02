@@ -1,0 +1,139 @@
+/*===== PERSONAL_INFO START =====*/
+.personal-info-wrapper {
+    padding: 0 0 152px;
+}
+
+.personal-info-wrapper .breadcrumb {
+    margin-bottom: 0;
+}
+
+.personal-info-wrapper .aside-content {
+    border: 1px solid #dedede;
+}
+
+.personal-info-wrapper .personal-info-item {
+    background-color: #fff;
+    line-height: 50px;
+}
+
+.personal-info-wrapper .personal-info-item li {
+    position: relative;
+    color: #707070;
+
+}
+
+.personal-info-wrapper .personal-info-item li a {
+    display: inline-block;
+    width: 100%;
+    padding-left: 50px;
+    line-height: 50px;
+}
+
+.personal-info-wrapper .personal-info-item li:not(:last-child) a {
+    border-bottom: 1px solid #dedede;
+}
+
+.personal-info-wrapper .personal-info-item li a::before {
+    content: "\f054";
+    font-family: 'FontAwesome';
+    color: #444;
+    position: absolute;
+    left: 22px;
+}
+
+.personal-info-wrapper .personal-info-item li a:hover,
+.personal-info-wrapper .personal-info-item li.active a {
+    border-bottom: 2px solid #8bc34a;
+    color: #37474f;
+}
+
+.personal-info-wrapper .personal-info-item li a:hover:before,
+.personal-info-wrapper .personal-info-item li.active a:before {
+    content: "\f054";
+    color: #8bc34a;
+    position: absolute;
+}
+
+.personal-info-wrapper .upload-wrapper {
+    padding: 32px 36px 80px !important;
+}
+
+.personal-info-wrapper .form-content .form-group-item .upload-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    color: #444444;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.personal-info-wrapper .form-content .form-group-item .upload-user-select {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    width: 100%;
+}
+
+.personal-info-wrapper .btn-custom {
+    width: 125px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+.personal-info-wrapper .btn-custom:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .personal-info-wrapper {
+        padding-bottom: 90px;
+    }
+
+    .personal-info-wrapper .form-content .form-group-item .upload-text {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    }
+
+    .personal-info-wrapper .form-content .form-group-item .upload-user-select {
+        -webkit-box-flex: 4;
+            -ms-flex: 4;
+                flex: 4;
+    }
+}
+
+@media (max-width: 991px) {
+    .personal-info-wrapper {
+        padding-bottom: 70px;
+    }
+
+    .personal-info-wrapper .form-content .form-group-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+@media (max-width: 765px) {
+    .personal-info-wrapper {
+        padding-bottom: 60px;
+    }
+
+    .personal-info-wrapper .btn-custom {
+        width: 100%;
+    }
+}
+
+/*===== PERSONAL_INFO END =====*/
