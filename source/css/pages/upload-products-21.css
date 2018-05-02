@@ -55,7 +55,7 @@
     cursor: pointer;
 }
 
-.form-control:focus {
+.upload-user-select .form-control:focus {
     border: 2px solid #8bc34a;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .jq-selectbox.focused .jq-selectbox__select,
-.jq-selectbox.focused .jq-selectbox__select-text{
+.jq-selectbox.focused .jq-selectbox__select-text {
     border: 1px solid #8bc34a;
     background-color: #fff;
 }
@@ -112,9 +112,11 @@
 .jq-selectbox li:hover {
     background-color: #8bc34a;
 }
+
 .jq-selectbox__trigger {
-   border: none;
+    border: none;
 }
+
 .jq-selectbox__trigger-arrow {
     top: 16px;
 }
@@ -123,7 +125,6 @@
     padding-top: 15px;
     padding-left: 20px;
 }
-
 
 .upload-user-select input[type='file'] {
     opacity: 0;
@@ -141,6 +142,7 @@
     margin-right: 15px;
     text-align: center;
 }
+
 .upload-user-select .uploadButton {
     display: block;
     position: absolute;
@@ -160,7 +162,7 @@
     border: 2px solid #8bc34a;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
     .upload-products-wrapper {
         padding-bottom: 90px;
     }
@@ -168,12 +170,13 @@
     .form-content .form-group-item .upload-text {
         flex: 1;
     }
+
     .form-content .form-group-item .upload-user-select {
         flex: 4;
     }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
     .upload-products-wrapper {
         padding-bottom: 70px;
     }
@@ -184,12 +187,14 @@
     }
 }
 
-@media (max-width:565px) {
+@media (max-width: 565px) {
     .upload-products-wrapper {
         padding-bottom: 60px;
     }
+
     .upload-products-wrapper .btn-custom {
         width: 100%;
     }
 }
+
 /*===== UPLOAD-PRODUCTS END =====*/

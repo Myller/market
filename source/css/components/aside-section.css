@@ -91,7 +91,7 @@
 }
 
 /* === aside section end === */
-.default-section {
+.default-section-bottom {
     padding: 0 0 110px;
 }
 
@@ -103,4 +103,5 @@
 /*870+30=900*/
 .container-small {
     max-width: 900px;
+
 }
