@@ -23,11 +23,12 @@
     <!-- jQuery UI Style -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-
     <!--Font-awesome-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <!--Reset CSS-->
     <link rel="stylesheet" href="../source/css/reset.css">
+    <!--Style CSS-->
     <link rel="stylesheet" href="css/style.css">
     <title>Market place</title>
 </head>
@@ -201,9 +202,7 @@
                     <!--/.head-user-item-->
                 </div>
                 <!-- /.head-user -->
-                <button>
-                    <a href="#" class="btn btn-login btn-green title-white">Logout</a>
-                </button>
+                <button class="btn-custom btn-sm btn-red btn-rounded">Logout</button>
                 <!--/.button-->
             </div>
             <!--/order-1-->
@@ -260,7 +259,7 @@
     </div>
     <!-- / inner-small -->
     <!--/Inner end -->
-    <section class="upload-products-wrapper default-section-bottom">
+    <div class="upload-products-wrapper default-section-bottom">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb bg-off-white">
@@ -273,7 +272,7 @@
             <div class="form-content bg-white">
                 <h3 class="form-content-title title default-title title-dark">Upload Your item</h3>
                 <form>
-                    <section class="upload-wrapper">
+                    <div class="upload-wrapper">
                         <div class="form-group-item">
                             <div class="upload-text">
                                 <label>Select Categories <span class="title-green">*</span></label>
@@ -388,21 +387,21 @@
                             <!--/ upload-user-select-->
                         </div>
                         <!--/ form-group-item-->
-                    </section>
+                    </div>
                     <h3 class="form-content-title title default-title title-dark">Set Your Price (US$)</h3>
-                    <section class="upload-wrapper">
-                        <div class="form-group-item d-flex flex-row">
+                    <div class="upload-wrapper">
+                        <div class="form-group-item">
                             <div class="upload-text">
                                 <label>Regular License <span class="title-green">*</span></label>
                             </div>
                             <!--/ upload-text-->
                             <div class="upload-user-select">
-                                <input type="text" class="form-control" id="" placeholder="$00.00">
+                                <input type="text" class="form-control" placeholder="$00.00">
                             </div>
                             <!--/ upload-user-select-->
                         </div>
                         <!--/ form-group-item-->
-                        <div class="form-group-item d-flex flex-row">
+                        <div class="form-group-item">
                             <div class="upload-text">
                                 <label>Extended License <span class="title-green">*</span></label>
                             </div>
@@ -413,7 +412,7 @@
                             <!--/ upload-user-select-->
                         </div>
                         <!--/ form-group-item-->
-                        <div class="form-group-item d-flex flex-row">
+                        <div class="form-group-item">
                             <div class="upload-text"></div>
                             <div class="upload-user-select">
                                 <a href="#" class="btn-custom btn-green btn-block">Submit</a>
@@ -421,13 +420,13 @@
                             <!--/ upload-user-select-->
                         </div>
                         <!--/ form-group-item-->
-                    </section>
+                    </div>
                 </form>
             </div>
             <!--/ form-content-->
         </div>
         <!--/ container-->
-    </section>
+    </div>
     <!--/ upload-products-wrapper-->
 </main>
 <!--MAIN END-->
@@ -515,7 +514,7 @@
                         <li class="social-items"><a href="#"><i class="icon icon-youtube"></i></a></li>
                         <li class="social-items"><a href="#"><i class="icon icon-linkedin"></i></a></li>
                     </ul>
-                    <form action="" method="post" class="footer-search d-flex justify-content-between">
+                    <form method="post" class="footer-search d-flex justify-content-between">
                         <input type="search" id="search" placeholder="E-mail Address"/>
                         <button class="icon"><i class="fa fa-location-arrow"></i></button>
                     </form>

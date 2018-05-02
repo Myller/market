@@ -200,7 +200,7 @@
         padding-bottom: 70px;
     }
 
-    .form-content .form-group-item {
+    .form-content .form-group-item *{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
