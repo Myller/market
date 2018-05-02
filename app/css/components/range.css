@@ -1,5 +1,5 @@
 .ui-widget.ui-widget-content {
-    height: 5px;
+    height: 5px !important;
     border: none;
     background-color: #f2f5f8;
     border-radius: 5px;

@@ -6,7 +6,7 @@
 
 /*===== inner-all-items start ====== */
 .inner-small {
-    background: url('../../../app/img/banner-small-inner.png') no-repeat center/cover;
+    background: url('../img/banner-small-inner.png') no-repeat center/cover;
     width: 100%;
     min-height: 229px;
     padding-left: 20px;
@@ -75,6 +75,9 @@
 /*===== all-products-wrapper start =====*/
 .all-products-wrapper .breadcrumb {
     margin-bottom: 0;
+}
+.ui-widget.ui-widget-content {
+    height: 5px !important;
 }
 
 .mobile-aside-toggle {
