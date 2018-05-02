@@ -104,7 +104,9 @@
                 </ul>
                 <!-- /.header-dropdown-list -->
                 <!--button-->
-                <button class="btn btn-green title-white">Login</button>
+                <!-- Button trigger modal -->
+                <button data-toggle="modal" data-target="#loginModal" class="btn btn-green title-white">Login</button>
+                <!--/ Button trigger modal -->
                 <button class="btn btn-red title-white">Register</button>
             </div>
             <!--/order-1-->
@@ -1005,7 +1007,45 @@
 </div>
 <!--/.footer-subscribe-->
 
-
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content bg-green">
+            <div class="modal-body">
+                <button type="button" class="close title-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <!-- / close -->
+                <h4 class="login-title title large-size-title title-white title-bold text-center">Login</h4>
+                <form name="login-form">
+                    <div class="login-form-group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="nickName" class="login-form-control" placeholder="Name">
+                    </div>
+                    <div class="login-form-group">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="password" class="login-form-control" placeholder="Password">
+                    </div>
+                    <div class="login-btn-group">
+                        <button type="submit" class="btn-submit btn-bold btn-white text-center">Submit</button>
+                        <a href="#" class="custom-btn title-white text-center">
+                            <i class="fa fa-pencil-square-o"></i>Creat An Account?
+                        </a>
+                    </div>
+                    <div class="login-btn-group">
+                        <a href="#" class="lost-password title-white">Lost password?</a>
+                    </div>
+                </form>
+                <!-- / login-form -->
+            </div>
+            <!-- / modal-body -->
+        </div>
+        <!-- / modal-content -->
+    </div>
+    <!-- / modal-dialog -->
+</div>
+<!-- Login modal end-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

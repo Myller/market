@@ -4,12 +4,6 @@
     color: #e74c3c;
 }
 
-.btn-custom.btn-red {
-    width: 72px;
-    height: 32px;
-    color: #fff;
-}
-
 /*===== inner-all-items start ====== */
 .inner-small {
     background: url('../img/banner-small-inner.png') no-repeat center/cover;
@@ -85,6 +79,9 @@
 /*===== all-products-wrapper start =====*/
 .all-products-wrapper .breadcrumb {
     margin-bottom: 0;
+}
+.ui-widget.ui-widget-content {
+    height: 5px !important;
 }
 
 .mobile-aside-toggle {

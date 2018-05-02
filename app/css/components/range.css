@@ -1,5 +1,5 @@
 .ui-widget.ui-widget-content {
-    height: 5px;
+    height: 5px !important;
     border: none;
     background-color: #f2f5f8;
     border-radius: 5px;
@@ -8,6 +8,10 @@
 
 .ui-slider .ui-slider-range {
     background-color: #37474f;
+}
+
+.ui-widget.ui-widget-content {
+    height: inherit;
 }
 
 .ui-slider .min-value,
